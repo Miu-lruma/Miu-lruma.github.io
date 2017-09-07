@@ -1,5 +1,5 @@
 @font-face {
 	font-family: 'CaviarDreams';
-	src: local('CaviarDreams'), local('CaviarDreams'), url(/resources/CaviarDreams.tff) format('tff');
+	src: url('CaviarDreams.ttf');
 }
 
