@@ -59,10 +59,10 @@ body, html {
 			<i class="fa fa-bars"></i>
 		</a>
 		<a href="#home" class="w3-bar-item w3-button w3-light-blue w3-hover-grey w3-text-aqua" id="homeButton">HOME</a>
-		<a href="#about" class="w3-bar-item w3-button w3-hide-small w3-light-blue w3-hover-grey w3-text-aqua"><i class="fa fa-user"></i> ABOUT</a>
-		<a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-light-blue w3-hover-grey w3-text-aqua"><i class="fa fa-th"></i> PORTFOLIO</a>
-		<a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-light-blue w3-hover-grey w3-text-aqua"><i class="fa fa-envelope"></i> CONTACT</a>
-		<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-light-blue w3-hover-grey w3-text-aqua">
+		<a href="#about" class="w3-bar-item w3-button w3-hide-small w3-light-blue w3-hover-grey w3-text-aqua" id="aboutButton"><i class="fa fa-user"></i> ABOUT</a>
+		<a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-light-blue w3-hover-grey w3-text-aqua" id="portfolioButton"><i class="fa fa-th"></i> PORTFOLIO</a>
+		<a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-light-blue w3-hover-grey w3-text-aqua" id="contactButton"><i class="fa fa-envelope"></i> CONTACT</a>
+		<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-light-blue w3-hover-grey w3-text-aqua" id="searchButton">
 			<i class="fa fa-search"></i>
 		</a>
 	</div>
@@ -422,12 +422,25 @@ window.onscroll = function() {myFunction()};
 function myFunction() {
 	var navbar = document.getElementById("myNavbar");
 	var homeB = document.getElementById("homeButton");
+	var contactB = document.getElementById("contactButton");
+	var portfolioB = document.getElementById("portfolioButton");
+	var searchB = document.getElementById("searchButton");
+	var aboutB = document.getElementById("aboutButton");
+
 	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
 		navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-light-blue";
 		homeButton.className = "w3-bar-item" + " w3-button " + " w3-light-blue " + " w3-hover-grey " +  "w3-text-white";
+		contactButton.className = "w3-bar-item" + " w3-button " + " w3-light-blue " + " w3-hover-grey " +  "w3-text-white";
+		portfolioButton.className = "w3-bar-item" + " w3-button " + " w3-light-blue " + " w3-hover-grey " +  "w3-text-white";
+		searchButton.className = "w3-bar-item" + " w3-button " + " w3-light-blue " + " w3-hover-grey " +  "w3-text-white";
+		aboutButton.className = "w3-bar-item" + " w3-button " + " w3-light-blue " + " w3-hover-grey " +  "w3-text-white";
 	} else {
 		navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-light-blue", "");
 		homeButton.className = "w3-bar-item" + " w3-button " + " w3-light-blue " + " w3-hover-grey " +  "w3-text-aqua";
+		contactButton.className = "w3-bar-item" + " w3-button " + " w3-light-blue " + " w3-hover-grey " +  "w3-text-aqua";
+		portfolioButton.className = "w3-bar-item" + " w3-button " + " w3-light-blue " + " w3-hover-grey " +  "w3-text-aqua";
+		searchButton.className = "w3-bar-item" + " w3-button " + " w3-light-blue " + " w3-hover-grey " +  "w3-text-aqua";
+		aboutButton.className = "w3-bar-item" + " w3-button " + " w3-light-blue " + " w3-hover-grey " +  "w3-text-aqua";
 
 	}
 }
