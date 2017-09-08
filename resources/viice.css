@@ -1,4 +1,4 @@
-/* viice.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */
+/* W3.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */
 
 html {
    box-sizing: border-box
@@ -219,7 +219,7 @@ h6 {
    font-size: 16px
 }
 
-.viice-serif {
+.w3-serif {
    font-family: serif
 }
 
@@ -229,11 +229,11 @@ h1, h2, h3, h4, h5, h6 {
    margin: 10px 0
 }
 
-.viice-wide {
+.w3-wide {
    letter-spacing: 4px
 }
 
-.viice-semi-wide {
+.w3-semi-wide {
    letter-spacing: 2px
 }
 
@@ -243,7 +243,7 @@ hr {
    margin: 20px 0
 }
 
-.viice-image {
+.w3-image {
    max-width: 100%;
    height: auto
 }
@@ -256,53 +256,53 @@ a {
    color: inherit
 }
 
-.viice-table, .viice-table-all {
+.w3-table, .w3-table-all {
    border-collapse: collapse;
    border-spacing: 0;
    width: 100%;
    display: table
 }
 
-.viice-table-all {
+.w3-table-all {
    border: 1px solid #ccc
 }
 
-.viice-bordered tr, .viice-table-all tr {
+.w3-bordered tr, .w3-table-all tr {
    border-bottom: 1px solid #ddd
 }
 
-.viice-striped tbody tr:nth-child(even) {
+.w3-striped tbody tr:nth-child(even) {
    background-color: #f1f1f1
 }
 
-.viice-table-all tr:nth-child(odd) {
+.w3-table-all tr:nth-child(odd) {
    background-color: #fff
 }
 
-.viice-table-all tr:nth-child(even) {
+.w3-table-all tr:nth-child(even) {
    background-color: #f1f1f1
 }
 
-.viice-hoverable tbody tr:hover, .viice-ul.viice-hoverable li:hover {
+.w3-hoverable tbody tr:hover, .w3-ul.w3-hoverable li:hover {
    background-color: #ccc
 }
 
-.viice-centered tr th, .viice-centered tr td {
+.w3-centered tr th, .w3-centered tr td {
    text-align: center
 }
 
-.viice-table td, .viice-table th, .viice-table-all td, .viice-table-all th {
+.w3-table td, .w3-table th, .w3-table-all td, .w3-table-all th {
    padding: 8px 8px;
    display: table-cell;
    text-align: left;
    vertical-align: top
 }
 
-.viice-table th:first-child, .viice-table td:first-child, .viice-table-all th:first-child, .viice-table-all td:first-child {
+.w3-table th:first-child, .w3-table td:first-child, .w3-table-all th:first-child, .w3-table-all td:first-child {
    padding-left: 16px
 }
 
-.viice-btn, .viice-button {
+.w3-btn, .w3-button {
    border: none;
    display: inline-block;
    outline: 0;
@@ -317,11 +317,11 @@ a {
    white-space: nowrap
 }
 
-.viice-btn:hover {
+.w3-btn:hover {
    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
-.viice-btn, .viice-button {
+.w3-btn, .w3-button {
    -webkit-touch-callout: none;
    -webkit-user-select: none;
    -khtml-user-select: none;
@@ -330,20 +330,20 @@ a {
    user-select: none
 }
 
-.viice-disabled, .viice-btn:disabled, .viice-button:disabled {
+.w3-disabled, .w3-btn:disabled, .w3-button:disabled {
    cursor: not-allowed;
    opacity: 0.3
 }
 
-.viice-disabled *, :disabled * {
+.w3-disabled *, :disabled * {
    pointer-events: none
 }
 
-.viice-btn.viice-disabled:hover, .viice-btn:disabled:hover {
+.w3-btn.w3-disabled:hover, .w3-btn:disabled:hover {
    box-shadow: none
 }
 
-.viice-badge, .viice-tag {
+.w3-badge, .w3-tag {
    background-color: #000;
    color: #fff;
    display: inline-block;
@@ -352,46 +352,46 @@ a {
    text-align: center
 }
 
-.viice-badge {
+.w3-badge {
    border-radius: 50%
 }
 
-.viice-ul {
+.w3-ul {
    list-style-type: none;
    padding: 0;
    margin: 0
 }
 
-.viice-ul li {
+.w3-ul li {
    padding: 8px 16px;
    border-bottom: 1px solid #ddd
 }
 
-.viice-ul li:last-child {
+.w3-ul li:last-child {
    border-bottom: none
 }
 
-.viice-tooltip, .viice-display-container {
+.w3-tooltip, .w3-display-container {
    position: relative
 }
 
-.viice-tooltip .viice-text {
+.w3-tooltip .w3-text {
    display: none
 }
 
-.viice-tooltip:hover .viice-text {
+.w3-tooltip:hover .w3-text {
    display: inline-block
 }
 
-.viice-ripple:active {
+.w3-ripple:active {
    opacity: 0.5
 }
 
-.viice-ripple {
+.w3-ripple {
    transition: opacity 0s
 }
 
-.viice-input {
+.w3-input {
    padding: 8px;
    display: block;
    border: none;
@@ -399,35 +399,35 @@ a {
    width: 100%
 }
 
-.viice-select {
+.w3-select {
    padding: 9px 0;
    width: 100%;
    border: none;
    border-bottom: 1px solid #ccc
 }
 
-.viice-dropdown-click, .viice-dropdown-hover {
+.w3-dropdown-click, .w3-dropdown-hover {
    position: relative;
    display: inline-block;
    cursor: pointer
 }
 
-.viice-dropdown-hover:hover .viice-dropdown-content {
+.w3-dropdown-hover:hover .w3-dropdown-content {
    display: block;
    z-index: 1
 }
 
-.viice-dropdown-hover:first-child, .viice-dropdown-click:hover {
+.w3-dropdown-hover:first-child, .w3-dropdown-click:hover {
    background-color: #ccc;
    color: #000
 }
 
-.viice-dropdown-hover:hover>.viice-button:first-child, .viice-dropdown-click:hover>.viice-button:first-child {
+.w3-dropdown-hover:hover>.w3-button:first-child, .w3-dropdown-click:hover>.w3-button:first-child {
    background-color: #ccc;
    color: #000
 }
 
-.viice-dropdown-content {
+.w3-dropdown-content {
    cursor: auto;
    color: #000;
    background-color: #fff;
@@ -438,14 +438,14 @@ a {
    padding: 0
 }
 
-.viice-check, .viice-radio {
+.w3-check, .w3-radio {
    width: 24px;
    height: 24px;
    position: relative;
    top: 6px
 }
 
-.viice-sidebar {
+.w3-sidebar {
    height: 100%;
    width: 200px;
    background-color: #fff;
@@ -454,25 +454,25 @@ a {
    overflow: auto
 }
 
-.viice-bar-block .viice-dropdown-hover, .viice-bar-block .viice-dropdown-click {
+.w3-bar-block .w3-dropdown-hover, .w3-bar-block .w3-dropdown-click {
    width: 100%
 }
 
-.viice-bar-block .viice-dropdown-hover .viice-dropdown-content, .viice-bar-block .viice-dropdown-click .viice-dropdown-content {
+.w3-bar-block .w3-dropdown-hover .w3-dropdown-content, .w3-bar-block .w3-dropdown-click .w3-dropdown-content {
    min-width: 100%
 }
 
-.viice-bar-block .viice-dropdown-hover .viice-button, .viice-bar-block .viice-dropdown-click .viice-button {
+.w3-bar-block .w3-dropdown-hover .w3-button, .w3-bar-block .w3-dropdown-click .w3-button {
    width: 100%;
    text-align: left;
    padding: 8px 16px
 }
 
-.viice-main, #main {
+.w3-main, #main {
    transition: margin-left .4s
 }
 
-.viice-modal {
+.w3-modal {
    z-index: 3;
    display: none;
    padding-top: 100px;
@@ -486,7 +486,7 @@ a {
    background-color: rgba(0, 0, 0, 0.4)
 }
 
-.viice-modal-content {
+.w3-modal-content {
    margin: auto;
    background-color: #fff;
    position: relative;
@@ -495,17 +495,17 @@ a {
    width: 600px
 }
 
-.viice-bar {
+.w3-bar {
    width: 100%;
    overflow: hidden
 }
 
-.viice-center .viice-bar {
+.w3-center .w3-bar {
    display: inline-block;
    width: auto
 }
 
-.viice-bar .viice-bar-item {
+.w3-bar .w3-bar-item {
    padding: 8px 16px;
    float: left;
    width: auto;
@@ -514,16 +514,16 @@ a {
    display: block
 }
 
-.viice-bar .viice-dropdown-hover, .viice-bar .viice-dropdown-click {
+.w3-bar .w3-dropdown-hover, .w3-bar .w3-dropdown-click {
    position: static;
    float: left
 }
 
-.viice-bar .viice-button {
+.w3-bar .w3-button {
    white-space: normal
 }
 
-.viice-bar-block .viice-bar-item {
+.w3-bar-block .w3-bar-item {
    width: 100%;
    display: block;
    padding: 8px 16px;
@@ -534,276 +534,276 @@ a {
    float: none
 }
 
-.viice-bar-block.viice-center .viice-bar-item {
+.w3-bar-block.w3-center .w3-bar-item {
    text-align: center
 }
 
-.viice-block {
+.w3-block {
    display: block;
    width: 100%
 }
 
-.viice-responsive {
+.w3-responsive {
    overflow-x: auto
 }
 
-.viice-container:after, .viice-container:before, .viice-panel:after, .viice-panel:before, .viice-row:after, .viice-row:before, .viice-row-padding:after, .viice-row-padding:before, .viice-cell-row:before, .viice-cell-row:after, .viice-clear:after, .viice-clear:before, .viice-bar:before, .viice-bar:after {
+.w3-container:after, .w3-container:before, .w3-panel:after, .w3-panel:before, .w3-row:after, .w3-row:before, .w3-row-padding:after, .w3-row-padding:before, .w3-cell-row:before, .w3-cell-row:after, .w3-clear:after, .w3-clear:before, .w3-bar:before, .w3-bar:after {
    content: "";
    display: table;
    clear: both
 }
 
-.viice-col, .viice-half, .viice-third, .viice-twothird, .viice-threequarter, .viice-quarter {
+.w3-col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
    float: left;
    width: 100%
 }
 
-.viice-col.s1 {
+.w3-col.s1 {
    width: 8.33333%
 }
 
-.viice-col.s2 {
+.w3-col.s2 {
    width: 16.66666%
 }
 
-.viice-col.s3 {
+.w3-col.s3 {
    width: 24.99999%
 }
 
-.viice-col.s4 {
+.w3-col.s4 {
    width: 33.33333%
 }
 
-.viice-col.s5 {
+.w3-col.s5 {
    width: 41.66666%
 }
 
-.viice-col.s6 {
+.w3-col.s6 {
    width: 49.99999%
 }
 
-.viice-col.s7 {
+.w3-col.s7 {
    width: 58.33333%
 }
 
-.viice-col.s8 {
+.w3-col.s8 {
    width: 66.66666%
 }
 
-.viice-col.s9 {
+.w3-col.s9 {
    width: 74.99999%
 }
 
-.viice-col.s10 {
+.w3-col.s10 {
    width: 83.33333%
 }
 
-.viice-col.s11 {
+.w3-col.s11 {
    width: 91.66666%
 }
 
-.viice-col.s12 {
+.w3-col.s12 {
    width: 99.99999%
 }
 
 @media (min-width:601px) {
-   .viice-col.m1 {
+   .w3-col.m1 {
       width: 8.33333%
    }
-   .viice-col.m2 {
+   .w3-col.m2 {
       width: 16.66666%
    }
-   .viice-col.m3, .viice-quarter {
+   .w3-col.m3, .w3-quarter {
       width: 24.99999%
    }
-   .viice-col.m4, .viice-third {
+   .w3-col.m4, .w3-third {
       width: 33.33333%
    }
-   .viice-col.m5 {
+   .w3-col.m5 {
       width: 41.66666%
    }
-   .viice-col.m6, .viice-half {
+   .w3-col.m6, .w3-half {
       width: 49.99999%
    }
-   .viice-col.m7 {
+   .w3-col.m7 {
       width: 58.33333%
    }
-   .viice-col.m8, .viice-twothird {
+   .w3-col.m8, .w3-twothird {
       width: 66.66666%
    }
-   .viice-col.m9, .viice-threequarter {
+   .w3-col.m9, .w3-threequarter {
       width: 74.99999%
    }
-   .viice-col.m10 {
+   .w3-col.m10 {
       width: 83.33333%
    }
-   .viice-col.m11 {
+   .w3-col.m11 {
       width: 91.66666%
    }
-   .viice-col.m12 {
+   .w3-col.m12 {
       width: 99.99999%
    }
 }
 
 @media (min-width:993px) {
-   .viice-col.l1 {
+   .w3-col.l1 {
       width: 8.33333%
    }
-   .viice-col.l2 {
+   .w3-col.l2 {
       width: 16.66666%
    }
-   .viice-col.l3 {
+   .w3-col.l3 {
       width: 24.99999%
    }
-   .viice-col.l4 {
+   .w3-col.l4 {
       width: 33.33333%
    }
-   .viice-col.l5 {
+   .w3-col.l5 {
       width: 41.66666%
    }
-   .viice-col.l6 {
+   .w3-col.l6 {
       width: 49.99999%
    }
-   .viice-col.l7 {
+   .w3-col.l7 {
       width: 58.33333%
    }
-   .viice-col.l8 {
+   .w3-col.l8 {
       width: 66.66666%
    }
-   .viice-col.l9 {
+   .w3-col.l9 {
       width: 74.99999%
    }
-   .viice-col.l10 {
+   .w3-col.l10 {
       width: 83.33333%
    }
-   .viice-col.l11 {
+   .w3-col.l11 {
       width: 91.66666%
    }
-   .viice-col.l12 {
+   .w3-col.l12 {
       width: 99.99999%
    }
 }
 
-.viice-content {
+.w3-content {
    max-width: 980px;
    margin: auto
 }
 
-.viice-rest {
+.w3-rest {
    overflow: hidden
 }
 
-.viice-cell-row {
+.w3-cell-row {
    display: table;
    width: 100%
 }
 
-.viice-cell {
+.w3-cell {
    display: table-cell
 }
 
-.viice-cell-top {
+.w3-cell-top {
    vertical-align: top
 }
 
-.viice-cell-middle {
+.w3-cell-middle {
    vertical-align: middle
 }
 
-.viice-cell-bottom {
+.w3-cell-bottom {
    vertical-align: bottom
 }
 
-.viice-hide {
+.w3-hide {
    display: none!important
 }
 
-.viice-show-block, .viice-show {
+.w3-show-block, .w3-show {
    display: block!important
 }
 
-.viice-show-inline-block {
+.w3-show-inline-block {
    display: inline-block!important
 }
 
 @media (max-width:600px) {
-   .viice-modal-content {
+   .w3-modal-content {
       margin: 0 10px;
       width: auto!important
    }
-   .viice-modal {
+   .w3-modal {
       padding-top: 30px
    }
-   .viice-dropdown-hover.viice-mobile .viice-dropdown-content, .viice-dropdown-click.viice-mobile .viice-dropdown-content {
+   .w3-dropdown-hover.w3-mobile .w3-dropdown-content, .w3-dropdown-click.w3-mobile .w3-dropdown-content {
       position: relative
    }
-   viice .viice-hide-small {
+   W3 .w3-hide-small {
       display: none!important
    }
-   .viice-mobile {
+   .w3-mobile {
       display: block;
       width: 100%!important
    }
-   .viice-bar-item.viice-mobile, .viice-dropdown-hover.viice-mobile, .viice-dropdown-click.viice-mobile {
+   .w3-bar-item.w3-mobile, .w3-dropdown-hover.w3-mobile, .w3-dropdown-click.w3-mobile {
       text-align: center
    }
-   .viice-dropdown-hover.viice-mobile, .viice-dropdown-hover.viice-mobile .viice-btn, .viice-dropdown-hover.viice-mobile .viice-button, .viice-dropdown-click.viice-mobile, .viice-dropdown-click.viice-mobile .viice-btn, .viice-dropdown-click.viice-mobile .viice-button {
+   .w3-dropdown-hover.w3-mobile, .w3-dropdown-hover.w3-mobile .w3-btn, .w3-dropdown-hover.w3-mobile .w3-button, .w3-dropdown-click.w3-mobile, .w3-dropdown-click.w3-mobile .w3-btn, .w3-dropdown-click.w3-mobile .w3-button {
       width: 100%
    }
 }
 
 @media (max-width:768px) {
-   .viice-modal-content {
+   .w3-modal-content {
       width: 500px
    }
-   .viice-modal {
+   .w3-modal {
       padding-top: 50px
    }
 }
 
 @media (min-width:993px) {
-   .viice-modal-content {
+   .w3-modal-content {
       width: 900px
    }
-   .viice-hide-large {
+   .w3-hide-large {
       display: none!important
    }
-   .viice-sidebar.viice-collapse {
+   .w3-sidebar.w3-collapse {
       display: block!important
    }
 }
 
 @media (max-width:992px) and (min-width:601px) {
-   .viice-hide-medium {
+   .w3-hide-medium {
       display: none!important
    }
 }
 
 @media (max-width:992px) {
-   .viice-sidebar.viice-collapse {
+   .w3-sidebar.w3-collapse {
       display: none
    }
-   .viice-main {
+   .w3-main {
       margin-left: 0!important;
       margin-right: 0!important
    }
 }
 
-.viice-top, .viice-bottom {
+.w3-top, .w3-bottom {
    position: fixed;
    width: 100%;
    z-index: 1
 }
 
-.viice-top {
+.w3-top {
    top: 0
 }
 
-.viice-bottom {
+.w3-bottom {
    bottom: 0
 }
 
-.viice-overlay {
+.w3-overlay {
    position: fixed;
    display: none;
    width: 100%;
@@ -816,31 +816,31 @@ a {
    z-index: 2
 }
 
-.viice-display-topleft {
+.w3-display-topleft {
    position: absolute;
    left: 0;
    top: 0
 }
 
-.viice-display-topright {
+.w3-display-topright {
    position: absolute;
    right: 0;
    top: 0
 }
 
-.viice-display-bottomleft {
+.w3-display-bottomleft {
    position: absolute;
    left: 0;
    bottom: 0
 }
 
-.viice-display-bottomright {
+.w3-display-bottomright {
    position: absolute;
    right: 0;
    bottom: 0
 }
 
-.viice-display-middle {
+.w3-display-middle {
    position: absolute;
    top: 50%;
    left: 50%;
@@ -848,7 +848,7 @@ a {
    -ms-transform: translate(-50%, -50%)
 }
 
-.viice-display-left {
+.w3-display-left {
    position: absolute;
    top: 50%;
    left: 0%;
@@ -856,7 +856,7 @@ a {
    -ms-transform: translate(-0%, -50%)
 }
 
-.viice-display-right {
+.w3-display-right {
    position: absolute;
    top: 50%;
    right: 0%;
@@ -864,7 +864,7 @@ a {
    -ms-transform: translate(0%, -50%)
 }
 
-.viice-display-topmiddle {
+.w3-display-topmiddle {
    position: absolute;
    left: 50%;
    top: 0;
@@ -872,7 +872,7 @@ a {
    -ms-transform: translate(-50%, 0%)
 }
 
-.viice-display-bottommiddle {
+.w3-display-bottommiddle {
    position: absolute;
    left: 50%;
    bottom: 0;
@@ -880,65 +880,65 @@ a {
    -ms-transform: translate(-50%, 0%)
 }
 
-.viice-display-container:hover .viice-display-hover {
+.w3-display-container:hover .w3-display-hover {
    display: block
 }
 
-.viice-display-container:hover span.viice-display-hover {
+.w3-display-container:hover span.w3-display-hover {
    display: inline-block
 }
 
-.viice-display-hover {
+.w3-display-hover {
    display: none
 }
 
-.viice-display-position {
+.w3-display-position {
    position: absolute
 }
 
-.viice-circle {
+.w3-circle {
    border-radius: 50%
 }
 
-.viice-round-small {
+.w3-round-small {
    border-radius: 2px
 }
 
-.viice-round, .viice-round-medium {
+.w3-round, .w3-round-medium {
    border-radius: 4px
 }
 
-.viice-round-large {
+.w3-round-large {
    border-radius: 8px
 }
 
-.viice-round-xlarge {
+.w3-round-xlarge {
    border-radius: 16px
 }
 
-.viice-round-xxlarge {
+.w3-round-xxlarge {
    border-radius: 32px
 }
 
-.viice-row-padding, .viice-row-padding>.viice-half, .viice-row-padding>.viice-third, .viice-row-padding>.viice-twothird, .viice-row-padding>.viice-threequarter, .viice-row-padding>.viice-quarter, .viice-row-padding>.viice-col {
+.w3-row-padding, .w3-row-padding>.w3-half, .w3-row-padding>.w3-third, .w3-row-padding>.w3-twothird, .w3-row-padding>.w3-threequarter, .w3-row-padding>.w3-quarter, .w3-row-padding>.w3-col {
    padding: 0 8px
 }
 
-.viice-container, .viice-panel {
+.w3-container, .w3-panel {
    padding: 0.01em 16px
 }
 
-.viice-panel {
+.w3-panel {
    margin-top: 16px;
    margin-bottom: 16px
 }
 
-.viice-code, .viice-codespan {
+.w3-code, .w3-codespan {
    font-family: Consolas, "courier new";
    font-size: 16px
 }
 
-.viice-code {
+.w3-code {
    width: auto;
    background-color: #fff;
    padding: 8px 12px;
@@ -946,7 +946,7 @@ a {
    word-wrap: break-word
 }
 
-.viice-codespan {
+.w3-codespan {
    color: crimson;
    background-color: #f1f1f1;
    padding-left: 4px;
@@ -954,19 +954,19 @@ a {
    font-size: 110%
 }
 
-.viice-card, .viice-card-2 {
+.w3-card, .w3-card-2 {
    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
 }
 
-.viice-card-4, .viice-hover-shadow:hover {
+.w3-card-4, .w3-hover-shadow:hover {
    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
-.viice-spin {
-   animation: viice-spin 2s infinite linear
+.w3-spin {
+   animation: w3-spin 2s infinite linear
 }
 
-@keyframes viice-spin {
+@keyframes w3-spin {
    0% {
       transform: rotate(0deg)
    }
@@ -975,7 +975,7 @@ a {
    }
 }
 
-.viice-animate-fading {
+.w3-animate-fading {
    animation: fading 10s infinite
 }
 
@@ -991,7 +991,7 @@ a {
    }
 }
 
-.viice-animate-opacity {
+.w3-animate-opacity {
    animation: opac 0.8s
 }
 
@@ -1004,7 +1004,7 @@ a {
    }
 }
 
-.viice-animate-top {
+.w3-animate-top {
    position: relative;
    animation: animatetop 0.4s
 }
@@ -1020,7 +1020,7 @@ a {
    }
 }
 
-.viice-animate-left {
+.w3-animate-left {
    position: relative;
    animation: animateleft 0.4s
 }
@@ -1036,7 +1036,7 @@ a {
    }
 }
 
-.viice-animate-right {
+.w3-animate-right {
    position: relative;
    animation: animateright 0.4s
 }
@@ -1052,7 +1052,7 @@ a {
    }
 }
 
-.viice-animate-bottom {
+.w3-animate-bottom {
    position: relative;
    animation: animatebottom 0.4s
 }
@@ -1068,7 +1068,7 @@ a {
    }
 }
 
-.viice-animate-zoom {
+.w3-animate-zoom {
    animation: animatezoom 0.6s
 }
 
@@ -1081,506 +1081,506 @@ a {
    }
 }
 
-.viice-animate-input {
+.w3-animate-input {
    transition: width 0.4s ease-in-out
 }
 
-.viice-animate-input:focus {
+.w3-animate-input:focus {
    width: 100%!important
 }
 
-.viice-opacity, .viice-hover-opacity:hover {
+.w3-opacity, .w3-hover-opacity:hover {
    opacity: 0.60
 }
 
-.viice-opacity-off, .viice-hover-opacity-off:hover {
+.w3-opacity-off, .w3-hover-opacity-off:hover {
    opacity: 1
 }
 
-.viice-opacity-max {
+.w3-opacity-max {
    opacity: 0.25
 }
 
-.viice-opacity-min {
+.w3-opacity-min {
    opacity: 0.75
 }
 
-.viice-greyscale-max, .viice-grayscale-max, .viice-hover-greyscale:hover, .viice-hover-grayscale:hover {
+.w3-greyscale-max, .w3-grayscale-max, .w3-hover-greyscale:hover, .w3-hover-grayscale:hover {
    filter: grayscale(100%)
 }
 
-.viice-greyscale, .viice-grayscale {
+.w3-greyscale, .w3-grayscale {
    filter: grayscale(75%)
 }
 
-.viice-greyscale-min, .viice-grayscale-min {
+.w3-greyscale-min, .w3-grayscale-min {
    filter: grayscale(50%)
 }
 
-.viice-sepia {
+.w3-sepia {
    filter: sepia(75%)
 }
 
-.viice-sepia-max, .viice-hover-sepia:hover {
+.w3-sepia-max, .w3-hover-sepia:hover {
    filter: sepia(100%)
 }
 
-.viice-sepia-min {
+.w3-sepia-min {
    filter: sepia(50%)
 }
 
-.viice-tiny {
+.w3-tiny {
    font-size: 10px!important
 }
 
-.viice-small {
+.w3-small {
    font-size: 12px!important
 }
 
-.viice-medium {
+.w3-medium {
    font-size: 15px!important
 }
 
-.viice-large {
+.w3-large {
    font-size: 18px!important
 }
 
-.viice-xlarge {
+.w3-xlarge {
    font-size: 24px!important
 }
 
-.viice-xxlarge {
+.w3-xxlarge {
    font-size: 36px!important
 }
 
-.viice-xxxlarge {
+.w3-xxxlarge {
    font-size: 48px!important
 }
 
-.viice-jumbo {
+.w3-jumbo {
    font-size: 64px!important
 }
 
-.viice-left-align {
+.w3-left-align {
    text-align: left!important
 }
 
-.viice-right-align {
+.w3-right-align {
    text-align: right!important
 }
 
-.viice-justify {
+.w3-justify {
    text-align: justify!important
 }
 
-.viice-center {
+.w3-center {
    text-align: center!important
 }
 
-.viice-border-0 {
+.w3-border-0 {
    border: 0!important
 }
 
-.viice-border {
+.w3-border {
    border: 1px solid #ccc!important
 }
 
-.viice-border-top {
+.w3-border-top {
    border-top: 1px solid #ccc!important
 }
 
-.viice-border-bottom {
+.w3-border-bottom {
    border-bottom: 1px solid #ccc!important
 }
 
-.viice-border-left {
+.w3-border-left {
    border-left: 1px solid #ccc!important
 }
 
-.viice-border-right {
+.w3-border-right {
    border-right: 1px solid #ccc!important
 }
 
-.viice-topbar {
+.w3-topbar {
    border-top: 6px solid #ccc!important
 }
 
-.viice-bottombar {
+.w3-bottombar {
    border-bottom: 6px solid #ccc!important
 }
 
-.viice-leftbar {
+.w3-leftbar {
    border-left: 6px solid #ccc!important
 }
 
-.viice-rightbar {
+.w3-rightbar {
    border-right: 6px solid #ccc!important
 }
 
-.viice-section, .viice-code {
+.w3-section, .w3-code {
    margin-top: 16px!important;
    margin-bottom: 16px!important
 }
 
-.viice-margin {
+.w3-margin {
    margin: 16px!important
 }
 
-.viice-margin-top {
+.w3-margin-top {
    margin-top: 16px!important
 }
 
-.viice-margin-bottom {
+.w3-margin-bottom {
    margin-bottom: 16px!important
 }
 
-.viice-margin-left {
+.w3-margin-left {
    margin-left: 16px!important
 }
 
-.viice-margin-right {
+.w3-margin-right {
    margin-right: 16px!important
 }
 
-.viice-padding-small {
+.w3-padding-small {
    padding: 4px 8px!important
 }
 
-.viice-padding {
+.w3-padding {
    padding: 8px 16px!important
 }
 
-.viice-padding-large {
+.w3-padding-large {
    padding: 12px 24px!important
 }
 
-.viice-padding-16 {
+.w3-padding-16 {
    padding-top: 16px!important;
    padding-bottom: 16px!important
 }
 
-.viice-padding-24 {
+.w3-padding-24 {
    padding-top: 24px!important;
    padding-bottom: 24px!important
 }
 
-.viice-padding-32 {
+.w3-padding-32 {
    padding-top: 32px!important;
    padding-bottom: 32px!important
 }
 
-.viice-padding-48 {
+.w3-padding-48 {
    padding-top: 48px!important;
    padding-bottom: 48px!important
 }
 
-.viice-padding-64 {
+.w3-padding-64 {
    padding-top: 64px!important;
    padding-bottom: 64px!important
 }
 
-.viice-left {
+.w3-left {
    float: left!important
 }
 
-.viice-right {
+.w3-right {
    float: right!important
 }
 
-.viice-button:hover {
+.w3-button:hover {
    color: #000!important;
    background-color: #ccc!important
 }
 
-.viice-transparent, .viice-hover-none:hover {
+.w3-transparent, .w3-hover-none:hover {
    background-color: transparent!important
 }
 
-.viice-hover-none:hover {
+.w3-hover-none:hover {
    box-shadow: none!important
 }
 
 
 /* Colors */
 
-.viice-amber, .viice-hover-amber:hover {
+.w3-amber, .w3-hover-amber:hover {
    color: #000!important;
    background-color: #ffc107!important
 }
 
-.viice-aqua, .viice-hover-aqua:hover {
+.w3-aqua, .w3-hover-aqua:hover {
    color: #000!important;
    background-color: #00ffff!important
 }
 
-.viice-blue, .viice-hover-blue:hover {
+.w3-blue, .w3-hover-blue:hover {
    color: #fff!important;
    background-color: #2196F3!important
 }
 
-.viice-light-blue, .viice-hover-light-blue:hover {
+.w3-light-blue, .w3-hover-light-blue:hover {
    color: #000!important;
    background-color: #404040!important
 }
 
-.viice-brown, .viice-hover-brown:hover {
+.w3-brown, .w3-hover-brown:hover {
    color: #fff!important;
    background-color: #795548!important
 }
 
-.viice-cyan, .viice-hover-cyan:hover {
+.w3-cyan, .w3-hover-cyan:hover {
    color: #000!important;
    background-color: #00bcd4!important
 }
 
-.viice-blue-grey, .viice-hover-blue-grey:hover, .viice-blue-gray, .viice-hover-blue-gray:hover {
+.w3-blue-grey, .w3-hover-blue-grey:hover, .w3-blue-gray, .w3-hover-blue-gray:hover {
    color: #fff!important;
    background-color: #607d8b!important
 }
 
-.viice-green, .viice-hover-green:hover {
+.w3-green, .w3-hover-green:hover {
    color: #fff!important;
    background-color: #4CAF50!important
 }
 
-.viice-light-green, .viice-hover-light-green:hover {
+.w3-light-green, .w3-hover-light-green:hover {
    color: #000!important;
    background-color: #8bc34a!important
 }
 
-.viice-indigo, .viice-hover-indigo:hover {
+.w3-indigo, .w3-hover-indigo:hover {
    color: #fff!important;
    background-color: #3f51b5!important
 }
 
-.viice-khaki, .viice-hover-khaki:hover {
+.w3-khaki, .w3-hover-khaki:hover {
    color: #000!important;
    background-color: #f0e68c!important
 }
 
-.viice-lime, .viice-hover-lime:hover {
+.w3-lime, .w3-hover-lime:hover {
    color: #000!important;
    background-color: #cddc39!important
 }
 
-.viice-orange, .viice-hover-orange:hover {
+.w3-orange, .w3-hover-orange:hover {
    color: #000!important;
    background-color: #ff9800!important
 }
 
-.viice-deep-orange, .viice-hover-deep-orange:hover {
+.w3-deep-orange, .w3-hover-deep-orange:hover {
    color: #fff!important;
    background-color: #ff5722!important
 }
 
-.viice-pink, .viice-hover-pink:hover {
+.w3-pink, .w3-hover-pink:hover {
    color: #fff!important;
    background-color: #e91e63!important
 }
 
-.viice-purple, .viice-hover-purple:hover {
+.w3-purple, .w3-hover-purple:hover {
    color: #fff!important;
    background-color: #9c27b0!important
 }
 
-.viice-deep-purple, .viice-hover-deep-purple:hover {
+.w3-deep-purple, .w3-hover-deep-purple:hover {
    color: #fff!important;
    background-color: #673ab7!important
 }
 
-.viice-red, .viice-hover-red:hover {
+.w3-red, .w3-hover-red:hover {
    color: #fff!important;
    background-color: #f44336!important
 }
 
-.viice-sand, .viice-hover-sand:hover {
+.w3-sand, .w3-hover-sand:hover {
    color: #000!important;
    background-color: #fdf5e6!important
 }
 
-.viice-teal, .viice-hover-teal:hover {
+.w3-teal, .w3-hover-teal:hover {
    color: #fff!important;
    background-color: #0b4f62!important
 }
 
-.viice-yellow, .viice-hover-yellow:hover {
+.w3-yellow, .w3-hover-yellow:hover {
    color: #000!important;
    background-color: #ffeb3b!important
 }
 
-.viice-white, .viice-hover-white:hover {
+.w3-white, .w3-hover-white:hover {
    color: #000!important;
    background-color: #fff!important
 }
 
-.viice-black, .viice-hover-black:hover {
+.w3-black, .w3-hover-black:hover {
    color: #fff!important;
    background-color: #000!important
 }
 
-.viice-grey, .viice-hover-grey:hover, .viice-gray, .viice-hover-gray:hover {
+.w3-grey, .w3-hover-grey:hover, .w3-gray, .w3-hover-gray:hover {
    color: #000!important;
    background-color: #bbb!important
 }
 
-.viice-light-grey, .viice-hover-light-grey:hover, .viice-light-gray, .viice-hover-light-gray:hover {
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
    color: #000!important;
    background-color: #f1f1f1!important
 }
 
-.viice-dark-grey, .viice-hover-dark-grey:hover, .viice-dark-gray, .viice-hover-dark-gray:hover {
+.w3-dark-grey, .w3-hover-dark-grey:hover, .w3-dark-gray, .w3-hover-dark-gray:hover {
    color: #fff!important;
    background-color: #616161!important
 }
 
-.viice-pale-red, .viice-hover-pale-red:hover {
+.w3-pale-red, .w3-hover-pale-red:hover {
    color: #000!important;
    background-color: #ffdddd!important
 }
 
-.viice-pale-green, .viice-hover-pale-green:hover {
+.w3-pale-green, .w3-hover-pale-green:hover {
    color: #000!important;
    background-color: #ddffdd!important
 }
 
-.viice-pale-yellow, .viice-hover-pale-yellow:hover {
+.w3-pale-yellow, .w3-hover-pale-yellow:hover {
    color: #000!important;
    background-color: #ffffcc!important
 }
 
-.viice-pale-blue, .viice-hover-pale-blue:hover {
+.w3-pale-blue, .w3-hover-pale-blue:hover {
    color: #000!important;
    background-color: #ddffff!important
 }
 
-.viice-text-red, .viice-hover-text-red:hover {
+.w3-text-red, .w3-hover-text-red:hover {
    color: #f44336!important
 }
 
-.viice-text-green, .viice-hover-text-green:hover {
+.w3-text-green, .w3-hover-text-green:hover {
    color: #4CAF50!important
 }
 
-.viice-text-blue, .viice-hover-text-blue:hover {
+.w3-text-blue, .w3-hover-text-blue:hover {
    color: #2196F3!important
 }
 
-.viice-text-yellow, .viice-hover-text-yellow:hover {
+.w3-text-yellow, .w3-hover-text-yellow:hover {
    color: #ffeb3b!important
 }
 
-.viice-text-white, .viice-hover-text-white:hover {
+.w3-text-white, .w3-hover-text-white:hover {
    color: #fff!important
 }
 
-.viice-text-black, .viice-hover-text-black:hover {
+.w3-text-black, .w3-hover-text-black:hover {
    color: #000!important
 }
 
-.viice-text-grey, .viice-hover-text-grey:hover, .viice-text-gray, .viice-hover-text-gray:hover {
+.w3-text-grey, .w3-hover-text-grey:hover, .w3-text-gray, .w3-hover-text-gray:hover {
    color: #757575!important
 }
 
-.viice-text-amber {
+.w3-text-amber {
    color: #ffc107!important
 }
 
-.viice-text-aqua {
+.w3-text-aqua {
    color: #00e5ff!important
 }
 
-.viice-text-light-blue {
+.w3-text-light-blue {
    color: #87CEEB!important
 }
 
-.viice-text-brown {
+.w3-text-brown {
    color: #795548!important
 }
 
-.viice-text-cyan {
+.w3-text-cyan {
    color: #00bcd4!important
 }
 
-.viice-text-blue-grey, .viice-text-blue-gray {
+.w3-text-blue-grey, .w3-text-blue-gray {
    color: #607d8b!important
 }
 
-.viice-text-light-green {
+.w3-text-light-green {
    color: #8bc34a!important
 }
 
-.viice-text-indigo {
+.w3-text-indigo {
    color: #3f51b5!important
 }
 
-.viice-text-khaki {
+.w3-text-khaki {
    color: #b4aa50!important
 }
 
-.viice-text-lime {
+.w3-text-lime {
    color: #cddc39!important
 }
 
-.viice-text-orange {
+.w3-text-orange {
    color: #ff9800!important
 }
 
-.viice-text-deep-orange {
+.w3-text-deep-orange {
    color: #ff5722!important
 }
 
-.viice-text-pink {
+.w3-text-pink {
    color: #e91e63!important
 }
 
-.viice-text-purple {
+.w3-text-purple {
    color: #9c27b0!important
 }
 
-.viice-text-deep-purple {
+.w3-text-deep-purple {
    color: #673ab7!important
 }
 
-.viice-text-sand {
+.w3-text-sand {
    color: #fdf5e6!important
 }
 
-.viice-text-teal {
+.w3-text-teal {
    color: #009688!important
 }
 
-.viice-text-light-grey, .viice-hover-text-light-grey:hover, .viice-text-light-gray, .viice-hover-text-light-gray:hover {
+.w3-text-light-grey, .w3-hover-text-light-grey:hover, .w3-text-light-gray, .w3-hover-text-light-gray:hover {
    color: #f1f1f1!important
 }
 
-.viice-text-dark-grey, .viice-hover-text-dark-grey:hover, .viice-text-dark-gray, .viice-hover-text-dark-gray:hover {
+.w3-text-dark-grey, .w3-hover-text-dark-grey:hover, .w3-text-dark-gray, .w3-hover-text-dark-gray:hover {
    color: #3a3a3a!important
 }
 
-.viice-border-red, .viice-hover-border-red:hover {
+.w3-border-red, .w3-hover-border-red:hover {
    border-color: #f44336!important
 }
 
-.viice-border-green, .viice-hover-border-green:hover {
+.w3-border-green, .w3-hover-border-green:hover {
    border-color: #4CAF50!important
 }
 
-.viice-border-blue, .viice-hover-border-blue:hover {
+.w3-border-blue, .w3-hover-border-blue:hover {
    border-color: #2196F3!important
 }
 
-.viice-border-yellow, .viice-hover-border-yellow:hover {
+.w3-border-yellow, .w3-hover-border-yellow:hover {
    border-color: #ffeb3b!important
 }
 
-.viice-border-white, .viice-hover-border-white:hover {
+.w3-border-white, .w3-hover-border-white:hover {
    border-color: #fff!important
 }
 
-.viice-border-black, .viice-hover-border-black:hover {
+.w3-border-black, .w3-hover-border-black:hover {
    border-color: #000!important
 }
 
-.viice-border-grey, .viice-hover-border-grey:hover, .viice-border-gray, .viice-hover-border-gray:hover {
+.w3-border-grey, .w3-hover-border-grey:hover, .w3-border-gray, .w3-hover-border-gray:hover {
    border-color: #bbb!important
 }
