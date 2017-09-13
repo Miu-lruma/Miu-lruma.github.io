@@ -26,7 +26,7 @@
          } else {
             autoplay = 0;
          }
-         iframe_dom = "<iframe frameborder='0' allowfullscreen='' src='http://www.youtube.com/embed/" + options.vid + "?rel=0&autoplay=" + autoplay + "&wmode=opaque' marginwidth='0' marginheight='0'></iframe>";
+         iframe_dom = "<iframe frameborder='0' allowfullscreen='' src='https://www.youtube.com/embed/" + options.vid + "?rel=0&autoplay=" + autoplay + "&wmode=opaque' marginwidth='0' marginheight='0'></iframe>";
          return " <div class='youtube-modal-wrapper'> \n	<img class='youtube-modal__close-btn' src=\"resources/close.png\">\n	<div class='youtube-modal-inner'>\n		" + iframe_dom + "\n	</div>\n</div>";
       };
       start = function(item) {
