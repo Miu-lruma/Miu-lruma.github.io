@@ -80,3 +80,14 @@
    };
 
 }).call(this);
+
+$(document).ready(function() {
+
+   $('#video1').youtubeModal({
+      width: '80%'
+   });
+   $('#video2').youtubeModal({
+      width: '80%'
+   });
+
+})
