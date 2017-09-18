@@ -44,7 +44,7 @@
 	/* Second image (Portfolio) */
 
 	.bgimg-2 {
-		background-image: url("resources/parallax2.jpg");
+		background-image: url("resources/sand.png");
 		min-height: 400px;
 	}
 	/* Third image (Contact) */
@@ -77,7 +77,7 @@
 	<!-- Navbar (sit on top) -->
 	<div class="viice-top">
 		<div class="viice-bar" id="myNavbar">
-			<a href="#home" class="viice-bar-item viice-button viice-light-blue viice-hover-grey viice-text-aqua" id="homeButton">HOME</a>
+			<a href="#home" class="viice-bar-item viice-button viice-light-blue viice-hover-grey viice-text-aqua" id="homeButton"> <i class="fa fa-home"></i> HOME</a>
 			<a href="#about" class="viice-bar-item viice-button viice-hide-small viice-light-blue viice-hover-grey viice-text-aqua" id="aboutButton">
 					<i class="fa fa-user"></i>
 					ABOUT</a>
@@ -87,9 +87,6 @@
 			<a href="#contact" class="viice-bar-item viice-button viice-hide-small viice-light-blue viice-hover-grey viice-text-aqua" id="contactButton">
 					<i class="fa fa-envelope"></i>
 					CONTACT</a>
-			<a href="#" class="viice-bar-item viice-button viice-hide-small viice-right viice-light-blue viice-hover-grey viice-text-aqua" id="searchButton">
-					<i class="fa fa-search"></i>
-				</a>
 		</div>
 
 		<!-- Navbar on small screens -->
@@ -97,7 +94,6 @@
 			<a href="#about" class="viice-bar-item viice-button viice-dark-grey" onclick="toggleFunction()">ABOUT</a>
 			<a href="#portfolio" class="viice-bar-item viice-button viice-dark-grey" onclick="toggleFunction()">PORTFOLIO</a>
 			<a href="#contact" class="viice-bar-item viice-button viice-dark-grey" onclick="toggleFunction()">CONTACT</a>
-			<a href="#" class="viice-bar-item viice-button">SEARCH</a>
 		</div>
 	</div>
 
@@ -211,14 +207,16 @@
 		  </div>
 		</div>
 		<div class="containerimage viice-margin-bottom">
-		  <img src="resources/parietals2.png" id="video2" data-id="m0nvGzN3HtY" class="image" style="width:100%">
+			<a href="https://studentaffairs.nd.edu/division-directory/residential-life/residence-halls/dunne-hall/">
+		  <img src="resources/f66.png" class="image" style="width:100%">
 		  <div class="middle">
-			 <div class="text">Video Satire</div>
+			 <div class="text">Dunne Hall Flag & Crest</div>
 		  </div>
 
-		  <div class="below">
-			 <div class="textbelow">This is a video made for a writing and rhetoric course.  I was a part of the script-creation and filming, and did all of the post-process editing, including the use of a green screen, music, and effects in Adobe Premiere Pro.</div>
+		  <div class="below viice-margin-bottom">
+			 <div class="textbelow">The official flag for Notre Dame's newest men's residence hall, Dunne Hall.  The flag features the official crest in the middle.  As the founding commissioner of apparel & design for Dunne Hall, I worked along the first president to choose a design that showcases features of our dorm, including the rector's membership in the Congregation of the Holy Cross, stripes representing our floors and sections, and a helmet representing our mascot, the sentinels.  All work was done in Adobe Illustrator.</div>
 		  </div>
+	  </a>
 		</div>
 
 	</div>
@@ -267,6 +265,7 @@
 		viice-padding-32 viice-section">
 			<div class="viice-col m5
 			viice-container">
+			Recent Visitors:
 				<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5xta8z80jyv&amp;m=7&amp;c=dc84fa&amp;cr1=6f0094&amp;f=tahoma&amp;l=1&amp;s=340&amp;v0=20&amp;lx=-640&amp;ly=740&amp;hi=40&amp;rs=100&amp;cr0=ffffff" async="async"></script>
 
 			</div>
@@ -385,14 +384,12 @@
 				homeButton.className = "viice-bar-item viice-button  viice-light-blue  viice-hover-grey viice-text-white";
 				contactButton.className = "viice-bar-item viice-button  viice-light-blue  viice-hover-grey viice-text-white";
 				portfolioButton.className = "viice-bar-item viice-button  viice-light-blue  viice-hover-grey viice-text-white";
-				searchButton.className = "viice-bar-item viice-button  viice-right  viice-light-blue  viice-hover-grey viice-text-white";
 				aboutButton.className = "viice-bar-item viice-button  viice-light-blue  viice-hover-grey viice-text-white";
 			} else {
-				navbar.className = navbar.className.replace(" viice-card-2 viice-light-blue", "");
+				navbar.className = navbar.className.replace("viice-card-2 viice-light-blue", "");
 				homeButton.className = "viice-bar-item viice-button  viice-light-blue  viice-hover-grey viice-text-aqua";
 				contactButton.className = "viice-bar-item viice-button  viice-light-blue  viice-hover-grey viice-text-aqua";
 				portfolioButton.className = "viice-bar-item viice-button  viice-light-blue  viice-hover-grey viice-text-aqua";
-				searchButton.className = "viice-bar-item viice-button  viice-light-blue  viice-hover-grey  viice-right viice-text-aqua";
 				aboutButton.className = "viice-bar-item viice-button  viice-light-blue  viice-hover-grey viice-text-aqua";
 			}
 		}
