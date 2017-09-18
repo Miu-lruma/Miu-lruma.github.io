@@ -1318,8 +1318,8 @@ a {
    background-color: #2196F3!important
 }
 
-.viice-light-blue, .viice-hover-light-blue:hover {
-   color: #000!important;
+.viice-main-color, .viice-hover-main-color:hover {
+   color: #fff!important;
    background-color: #404040!important
 }
 
@@ -1398,9 +1398,14 @@ a {
    background-color: #fdf5e6!important
 }
 
-.viice-teal, .viice-hover-teal:hover {
+474747 .viice-teal, .viice-hover-teal:hover {
    color: #fff!important;
    background-color: #0b4f62!important
+}
+
+.viice-verydark, .viice-hover-verydark:hover {
+   color: #fff!important;
+   background-color: #232323!important
 }
 
 .viice-yellow, .viice-hover-yellow:hover {
@@ -1423,12 +1428,17 @@ a {
    background-color: #bbb!important
 }
 
+.viice-kevin, .viice-hover-kevin:hover, .viice-kevin, .viice-hover-kevin:hover {
+   color: #000!important;
+   background-color: #c5c5c5!important
+}
+
 .viice-light-grey, .viice-hover-light-grey:hover, .viice-light-gray, .viice-hover-light-gray:hover {
    color: #000!important;
    background-color: #f1f1f1!important
 }
 
-.viice-dark-grey, .viice-hover-dark-grey:hover, .viice-dark-gray, .viice-hover-dark-gray:hover {
+c5c5c5 .viice-dark-grey, .viice-hover-dark-grey:hover, .viice-dark-gray, .viice-hover-dark-gray:hover {
    color: #fff!important;
    background-color: #616161!important
 }
@@ -1489,7 +1499,7 @@ a {
    color: #00e5ff!important
 }
 
-.viice-text-light-blue {
+.viice-text-main-color {
    color: #87CEEB!important
 }
 
