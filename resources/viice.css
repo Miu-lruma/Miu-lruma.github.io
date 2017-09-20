@@ -1491,6 +1491,10 @@ c5c5c5 .viice-dark-grey, .viice-hover-dark-grey:hover, .viice-dark-gray, .viice-
    color: #757575!important
 }
 
+.viice-text-verydark, .viice-hover-text-verydark:hover, .viice-text-verydark, .viice-hover-text-verydark:hover {
+   color: #232323!important
+}
+
 .viice-text-amber {
    color: #ffc107!important
 }
