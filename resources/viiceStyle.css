@@ -26,12 +26,6 @@ body, html {
     min-height: 100vh;
 }
 
-.bgimg-ai {
-    background-image: url('AI.png');
-    min-height: 100vh;
-    max-height: 100vh;
-}
-
 
 /* Second image (Portfolio) */
 
@@ -46,6 +40,11 @@ body, html {
 .bgimg-3 {
     background-image: url("earth.jpg");
     min-height: 60vh;
+}
+
+.bgimg-ai {
+    background-image: url('AI.png');
+    min-height: 100vh;
 }
 
 .viice-wide {
