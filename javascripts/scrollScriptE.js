@@ -15,18 +15,18 @@ function scrollButtonColor() {
     if (document.body.scrollTop > h || document.documentElement.scrollTop > h) {
         navbar.className = "viice-bar";
         homeButton.className = "viice-bar-item viice-button  viice-verydark  viice-hover-main-color viice-text-white";
+        eButton.className = "viice-bar-item viice-button  viice-verydark  viice-hover-main-color viice-text-white";
         ResumeButton.className = "viice-bar-item viice-button  viice-verydark  viice-hover-main-color viice-text-white";
         portfolioButton.className = "viice-bar-item viice-button  viice-verydark  viice-hover-main-color viice-text-white";
         aboutButton.className = "viice-bar-item viice-button  viice-verydark  viice-hover-main-color viice-text-white";
-        eButton.className = "viice-bar-item viice-button  viice-verydark  viice-hover-main-color viice-text-white";
     } else {
 
         navbar.className = "viice-bar";
         homeButton.className = "viice-bar-item viice-button  viice-main-color  viice-hover-verydark viice-text-aqua";
+        eButton.className = "viice-bar-item viice-button  viice-main-color  viice-hover-verydark viice-text-aqua";
         ResumeButton.className = "viice-bar-item viice-button  viice-main-color  viice-hover-verydark viice-text-aqua";
         portfolioButton.className = "viice-bar-item viice-button  viice-main-color  viice-hover-verydark viice-text-aqua";
         aboutButton.className = "viice-bar-item viice-button  viice-main-color  viice-hover-verydark viice-text-aqua";
-        eButton.className = "viice-bar-item viice-button  viice-main-color  viice-hover-verydark viice-text-aqua";
     }
 }
 // Used to toggle the menu on small screens when clicking on the menu button

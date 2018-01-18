@@ -1,1604 +1,1604 @@
 /* viice.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */
 
 html {
-   box-sizing: border-box
+    box-sizing: border-box
 }
 
 *, *:before, *:after {
-   box-sizing: inherit
+    box-sizing: inherit
 }
 
 
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 
 html {
-   -ms-text-size-adjust: 100%;
-   -webkit-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
 }
 
 body {
-   margin: 0
+    margin: 0
 }
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
-   display: block
+    display: block
 }
 
 audio, canvas, progress, video {
-   display: inline-block
+    display: inline-block
 }
 
 progress {
-   vertical-align: baseline
+    vertical-align: baseline
 }
 
 audio:not([controls]) {
-   display: none;
-   height: 0
+    display: none;
+    height: 0
 }
 
 [hidden], template {
-   display: none
+    display: none
 }
 
 a {
-   background-color: transparent;
-   -webkit-text-decoration-skip: objects
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
 }
 
 a:active, a:hover {
-   outline-width: 0
+    outline-width: 0
 }
 
 abbr[title] {
-   border-bottom: none;
-   text-decoration: underline;
-   text-decoration: underline dotted
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
 }
 
 dfn {
-   font-style: italic
+    font-style: italic
 }
 
 mark {
-   background: #ff0;
-   color: #000
+    background: #ff0;
+    color: #000
 }
 
 small {
-   font-size: 80%
+    font-size: 80%
 }
 
 sub, sup {
-   font-size: 75%;
-   line-height: 0;
-   position: relative;
-   vertical-align: baseline
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
 }
 
 sub {
-   bottom: -0.25em
+    bottom: -0.25em
 }
 
 sup {
-   top: -0.5em
+    top: -0.5em
 }
 
 figure {
-   margin: 1em 40px
+    margin: 1em 40px
 }
 
 img {
-   border-style: none
+    border-style: none
 }
 
 svg:not(:root) {
-   overflow: hidden
+    overflow: hidden
 }
 
 code, kbd, pre, samp {
-   font-family: monospace, monospace;
-   font-size: 1em
+    font-family: monospace, monospace;
+    font-size: 1em
 }
 
 hr {
-   box-sizing: content-box;
-   height: 0;
-   overflow: visible
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
 }
 
 button, input, select, textarea {
-   font: inherit;
-   margin: 0
+    font: inherit;
+    margin: 0
 }
 
 optgroup {
-   font-weight: bold
+    font-weight: bold
 }
 
 button, input {
-   overflow: visible
+    overflow: visible
 }
 
 button, select {
-   text-transform: none
+    text-transform: none
 }
 
 button, html [type=button], [type=reset], [type=submit] {
-   -webkit-appearance: button
+    -webkit-appearance: button
 }
 
 button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
-   border-style: none;
-   padding: 0
+    border-style: none;
+    padding: 0
 }
 
 button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
-   outline: 1px dotted ButtonText
+    outline: 1px dotted ButtonText
 }
 
 fieldset {
-   border: 1px solid #c0c0c0;
-   margin: 0 2px;
-   padding: .35em .625em .75em
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: .35em .625em .75em
 }
 
 legend {
-   color: inherit;
-   display: table;
-   max-width: 100%;
-   padding: 0;
-   white-space: normal
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
 }
 
 textarea {
-   overflow: auto
+    overflow: auto
 }
 
 [type=checkbox], [type=radio] {
-   padding: 0
+    padding: 0
 }
 
 [type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
-   height: auto
+    height: auto
 }
 
 [type=search] {
-   -webkit-appearance: textfield;
-   outline-offset: -2px
+    -webkit-appearance: textfield;
+    outline-offset: -2px
 }
 
 [type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
-   -webkit-appearance: none
+    -webkit-appearance: none
 }
 
 ::-webkit-input-placeholder {
-   color: inherit;
-   opacity: 0.54
+    color: inherit;
+    opacity: 0.54
 }
 
 ::-webkit-file-upload-button {
-   -webkit-appearance: button;
-   font: inherit
+    -webkit-appearance: button;
+    font: inherit
 }
 
 
 /* End extract */
 
 html, body {
-   font-family: Verdana, sans-serif;
-   font-size: 15px;
-   line-height: 1.5
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5
 }
 
 html {
-   overflow-x: hidden
+    overflow-x: hidden
 }
 
 h1 {
-   font-size: 36px
+    font-size: 36px
 }
 
 h2 {
-   font-size: 30px
+    font-size: 30px
 }
 
 h3 {
-   font-size: 24px
+    font-size: 24px
 }
 
 h4 {
-   font-size: 20px
+    font-size: 20px
 }
 
 h5 {
-   font-size: 18px
+    font-size: 18px
 }
 
 h6 {
-   font-size: 16px
+    font-size: 16px
 }
 
 .viice-serif {
-   font-family: serif
+    font-family: serif
 }
 
 h1, h2, h3, h4, h5, h6 {
-   font-family: "Segoe UI", Arial, sans-serif;
-   font-weight: 400;
-   margin: 10px 0
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0
 }
 
 .viice-wide {
-   letter-spacing: 4px
+    letter-spacing: 4px
 }
 
 .viice-semi-wide {
-   letter-spacing: 2px
+    letter-spacing: 2px
 }
 
 hr {
-   border: 0;
-   border-top: 1px solid #eee;
-   margin: 20px 0
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0
 }
 
 .viice-image {
-   max-width: 100%;
-   height: auto
+    max-width: 100%;
+    height: auto
 }
 
 img {
-   margin-bottom: -5px
+    margin-bottom: -5px
 }
 
 a {
-   color: inherit
+    color: inherit
 }
 
 .viice-table, .viice-table-all {
-   border-collapse: collapse;
-   border-spacing: 0;
-   width: 100%;
-   display: table
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table
 }
 
 .viice-table-all {
-   border: 1px solid #ccc
+    border: 1px solid #ccc
 }
 
 .viice-bordered tr, .viice-table-all tr {
-   border-bottom: 1px solid #ddd
+    border-bottom: 1px solid #ddd
 }
 
 .viice-striped tbody tr:nth-child(even) {
-   background-color: #f1f1f1
+    background-color: #f1f1f1
 }
 
 .viice-table-all tr:nth-child(odd) {
-   background-color: #fff
+    background-color: #fff
 }
 
 .viice-table-all tr:nth-child(even) {
-   background-color: #f1f1f1
+    background-color: #f1f1f1
 }
 
 .viice-hoverable tbody tr:hover, .viice-ul.viice-hoverable li:hover {
-   background-color: #ccc
+    background-color: #ccc
 }
 
 .viice-centered tr th, .viice-centered tr td {
-   text-align: center
+    text-align: center
 }
 
 .viice-table td, .viice-table th, .viice-table-all td, .viice-table-all th {
-   padding: 8px 8px;
-   display: table-cell;
-   text-align: left;
-   vertical-align: top
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top
 }
 
 .viice-table th:first-child, .viice-table td:first-child, .viice-table-all th:first-child, .viice-table-all td:first-child {
-   padding-left: 16px
+    padding-left: 16px
 }
 
 .viice-btn, .viice-button {
-   border: none;
-   display: inline-block;
-   outline: 0;
-   padding: 8px 16px;
-   vertical-align: middle;
-   overflow: hidden;
-   text-decoration: none;
-   color: inherit;
-   background-color: inherit;
-   text-align: center;
-   cursor: pointer;
-   white-space: nowrap
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
 }
 
 .viice-btn:hover {
-   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .viice-btn, .viice-button {
-   -webkit-touch-callout: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
-   user-select: none
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
 }
 
 .viice-disabled, .viice-btn:disabled, .viice-button:disabled {
-   cursor: not-allowed;
-   opacity: 0.3
+    cursor: not-allowed;
+    opacity: 0.3
 }
 
 .viice-disabled *, :disabled * {
-   pointer-events: none
+    pointer-events: none
 }
 
 .viice-btn.viice-disabled:hover, .viice-btn:disabled:hover {
-   box-shadow: none
+    box-shadow: none
 }
 
 .viice-badge, .viice-tag {
-   background-color: #000;
-   color: #fff;
-   display: inline-block;
-   padding-left: 8px;
-   padding-right: 8px;
-   text-align: center
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center
 }
 
 .viice-badge {
-   border-radius: 50%
+    border-radius: 50%
 }
 
 .viice-ul {
-   list-style-type: none;
-   padding: 0;
-   margin: 0
+    list-style-type: none;
+    padding: 0;
+    margin: 0
 }
 
 .viice-ul li {
-   padding: 8px 16px;
-   border-bottom: 1px solid #ddd
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd
 }
 
 .viice-ul li:last-child {
-   border-bottom: none
+    border-bottom: none
 }
 
 .viice-tooltip, .viice-display-container {
-   position: relative
+    position: relative
 }
 
 .viice-tooltip .viice-text {
-   display: none
+    display: none
 }
 
 .viice-tooltip:hover .viice-text {
-   display: inline-block
+    display: inline-block
 }
 
 .viice-ripple:active {
-   opacity: 0.5
+    opacity: 0.5
 }
 
 .viice-ripple {
-   transition: opacity 0s
+    transition: opacity 0s
 }
 
 .viice-input {
-   padding: 8px;
-   display: block;
-   border: none;
-   border-bottom: 1px solid #ccc;
-   width: 100%
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%
 }
 
 .viice-select {
-   padding: 9px 0;
-   width: 100%;
-   border: none;
-   border-bottom: 1px solid #ccc
+    padding: 9px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc
 }
 
 .viice-dropdown-click, .viice-dropdown-hover {
-   position: relative;
-   display: inline-block;
-   cursor: pointer
+    position: relative;
+    display: inline-block;
+    cursor: pointer
 }
 
 .viice-dropdown-hover:hover .viice-dropdown-content {
-   display: block;
-   z-index: 1
+    display: block;
+    z-index: 1
 }
 
 .viice-dropdown-hover:first-child, .viice-dropdown-click:hover {
-   background-color: #ccc;
-   color: #000
+    background-color: #ccc;
+    color: #000
 }
 
 .viice-dropdown-hover:hover>.viice-button:first-child, .viice-dropdown-click:hover>.viice-button:first-child {
-   background-color: #ccc;
-   color: #000
+    background-color: #ccc;
+    color: #000
 }
 
 .viice-dropdown-content {
-   cursor: auto;
-   color: #000;
-   background-color: #fff;
-   display: none;
-   position: absolute;
-   min-width: 160px;
-   margin: 0;
-   padding: 0
+    cursor: auto;
+    color: #000;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin: 0;
+    padding: 0
 }
 
 .viice-check, .viice-radio {
-   width: 24px;
-   height: 24px;
-   position: relative;
-   top: 6px
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px
 }
 
 .viice-sidebar {
-   height: 100%;
-   width: 200px;
-   background-color: #fff;
-   position: fixed!important;
-   z-index: 1;
-   overflow: auto
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto
 }
 
 .viice-bar-block .viice-dropdown-hover, .viice-bar-block .viice-dropdown-click {
-   width: 100%
+    width: 100%
 }
 
 .viice-bar-block .viice-dropdown-hover .viice-dropdown-content, .viice-bar-block .viice-dropdown-click .viice-dropdown-content {
-   min-width: 100%
+    min-width: 100%
 }
 
 .viice-bar-block .viice-dropdown-hover .viice-button, .viice-bar-block .viice-dropdown-click .viice-button {
-   width: 100%;
-   text-align: left;
-   padding: 8px 16px
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px
 }
 
 .viice-main, #main {
-   transition: margin-left .4s
+    transition: margin-left .4s
 }
 
 .viice-modal {
-   z-index: 3;
-   display: none;
-   padding-top: 100px;
-   position: fixed;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   overflow: auto;
-   background-color: rgb(0, 0, 0);
-   background-color: rgba(0, 0, 0, 0.4)
+    z-index: 3;
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4)
 }
 
 .viice-modal-content {
-   margin: auto;
-   background-color: #fff;
-   position: relative;
-   padding: 0;
-   outline: 0;
-   width: 600px
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    width: 600px
 }
 
 .viice-bar {
-   width: 100%;
-   overflow: hidden
+    width: 100%;
+    overflow: hidden
 }
 
 .viice-center .viice-bar {
-   display: inline-block;
-   width: auto
+    display: inline-block;
+    width: auto
 }
 
 .viice-bar .viice-bar-item {
-   padding: 8px 16px;
-   float: left;
-   width: auto;
-   border: none;
-   outline: none;
-   display: block
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    outline: none;
+    display: block
 }
 
 .viice-bar .viice-dropdown-hover, .viice-bar .viice-dropdown-click {
-   position: static;
-   float: left
+    position: static;
+    float: left
 }
 
 .viice-bar .viice-button {
-   white-space: normal
+    white-space: normal
 }
 
 .viice-bar-block .viice-bar-item {
-   width: 100%;
-   display: block;
-   padding: 8px 16px;
-   text-align: left;
-   border: none;
-   outline: none;
-   white-space: normal;
-   float: none
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    outline: none;
+    white-space: normal;
+    float: none
 }
 
 .viice-bar-block.viice-center .viice-bar-item {
-   text-align: center
+    text-align: center
 }
 
 .viice-block {
-   display: block;
-   width: 100%
+    display: block;
+    width: 100%
 }
 
 .viice-responsive {
-   overflow-x: auto
+    overflow-x: auto
 }
 
 .viice-container:after, .viice-container:before, .viice-panel:after, .viice-panel:before, .viice-row:after, .viice-row:before, .viice-row-padding:after, .viice-row-padding:before, .viice-cell-row:before, .viice-cell-row:after, .viice-clear:after, .viice-clear:before, .viice-bar:before, .viice-bar:after {
-   content: "";
-   display: table;
-   clear: both
+    content: "";
+    display: table;
+    clear: both
 }
 
 .viice-col, .viice-half, .viice-third, .viice-twothird, .viice-threequarter, .viice-quarter {
-   float: left;
-   width: 100%
+    float: left;
+    width: 100%
 }
 
 .viice-col.s1 {
-   width: 8.33333%
+    width: 8.33333%
 }
 
 .viice-col.s2 {
-   width: 16.66666%
+    width: 16.66666%
 }
 
 .viice-col.s3 {
-   width: 24.99999%
+    width: 24.99999%
 }
 
 .viice-col.s4 {
-   width: 33.33333%
+    width: 33.33333%
 }
 
 .viice-col.s5 {
-   width: 41.66666%
+    width: 41.66666%
 }
 
 .viice-col.s6 {
-   width: 49.99999%
+    width: 49.99999%
 }
 
 .viice-col.s7 {
-   width: 58.33333%
+    width: 58.33333%
 }
 
 .viice-col.s8 {
-   width: 66.66666%
+    width: 66.66666%
 }
 
 .viice-col.s9 {
-   width: 74.99999%
+    width: 74.99999%
 }
 
 .viice-col.s10 {
-   width: 83.33333%
+    width: 83.33333%
 }
 
 .viice-col.s11 {
-   width: 91.66666%
+    width: 91.66666%
 }
 
 .viice-col.s12 {
-   width: 99.99999%
+    width: 99.99999%
 }
 
 @media (min-width:601px) {
-   .viice-col.m1 {
-      width: 8.33333%
-   }
-   .viice-col.m2 {
-      width: 16.66666%
-   }
-   .viice-col.m3, .viice-quarter {
-      width: 24.99999%
-   }
-   .viice-col.m4, .viice-third {
-      width: 33.33333%
-   }
-   .viice-col.m5 {
-      width: 41.66666%
-   }
-   .viice-col.m6, .viice-half {
-      width: 49.99999%
-   }
-   .viice-col.m7 {
-      width: 58.33333%
-   }
-   .viice-col.m8, .viice-twothird {
-      width: 66.66666%
-   }
-   .viice-col.m9, .viice-threequarter {
-      width: 74.99999%
-   }
-   .viice-col.m10 {
-      width: 83.33333%
-   }
-   .viice-col.m11 {
-      width: 91.66666%
-   }
-   .viice-col.m12 {
-      width: 99.99999%
-   }
+    .viice-col.m1 {
+        width: 8.33333%
+    }
+    .viice-col.m2 {
+        width: 16.66666%
+    }
+    .viice-col.m3, .viice-quarter {
+        width: 24.99999%
+    }
+    .viice-col.m4, .viice-third {
+        width: 33.33333%
+    }
+    .viice-col.m5 {
+        width: 41.66666%
+    }
+    .viice-col.m6, .viice-half {
+        width: 49.99999%
+    }
+    .viice-col.m7 {
+        width: 58.33333%
+    }
+    .viice-col.m8, .viice-twothird {
+        width: 66.66666%
+    }
+    .viice-col.m9, .viice-threequarter {
+        width: 74.99999%
+    }
+    .viice-col.m10 {
+        width: 83.33333%
+    }
+    .viice-col.m11 {
+        width: 91.66666%
+    }
+    .viice-col.m12 {
+        width: 99.99999%
+    }
 }
 
 @media (min-width:993px) {
-   .viice-col.l1 {
-      width: 8.33333%
-   }
-   .viice-col.l2 {
-      width: 16.66666%
-   }
-   .viice-col.l3 {
-      width: 24.99999%
-   }
-   .viice-col.l4 {
-      width: 33.33333%
-   }
-   .viice-col.l5 {
-      width: 41.66666%
-   }
-   .viice-col.l6 {
-      width: 49.99999%
-   }
-   .viice-col.l7 {
-      width: 58.33333%
-   }
-   .viice-col.l8 {
-      width: 66.66666%
-   }
-   .viice-col.l9 {
-      width: 74.99999%
-   }
-   .viice-col.l10 {
-      width: 83.33333%
-   }
-   .viice-col.l11 {
-      width: 91.66666%
-   }
-   .viice-col.l12 {
-      width: 99.99999%
-   }
+    .viice-col.l1 {
+        width: 8.33333%
+    }
+    .viice-col.l2 {
+        width: 16.66666%
+    }
+    .viice-col.l3 {
+        width: 24.99999%
+    }
+    .viice-col.l4 {
+        width: 33.33333%
+    }
+    .viice-col.l5 {
+        width: 41.66666%
+    }
+    .viice-col.l6 {
+        width: 49.99999%
+    }
+    .viice-col.l7 {
+        width: 58.33333%
+    }
+    .viice-col.l8 {
+        width: 66.66666%
+    }
+    .viice-col.l9 {
+        width: 74.99999%
+    }
+    .viice-col.l10 {
+        width: 83.33333%
+    }
+    .viice-col.l11 {
+        width: 91.66666%
+    }
+    .viice-col.l12 {
+        width: 99.99999%
+    }
 }
 
 .viice-content {
-   max-width: 980px;
-   margin: auto
+    max-width: 980px;
+    margin: auto
 }
 
 .viice-rest {
-   overflow: hidden
+    overflow: hidden
 }
 
 .viice-cell-row {
-   display: table;
-   width: 100%
+    display: table;
+    width: 100%
 }
 
 .viice-cell {
-   display: table-cell
+    display: table-cell
 }
 
 .viice-cell-top {
-   vertical-align: top
+    vertical-align: top
 }
 
 .viice-cell-middle {
-   vertical-align: middle
+    vertical-align: middle
 }
 
 .viice-cell-bottom {
-   vertical-align: bottom
+    vertical-align: bottom
 }
 
 .viice-hide {
-   display: none!important
+    display: none!important
 }
 
 .viice-show-block, .viice-show {
-   display: block!important
+    display: block!important
 }
 
 .viice-show-inline-block {
-   display: inline-block!important
+    display: inline-block!important
 }
 
 @media (max-width:600px) {
-   .viice-modal-content {
-      margin: 0 10px;
-      width: auto!important
-   }
-   .viice-modal {
-      padding-top: 30px
-   }
-   .viice-dropdown-hover.viice-mobile .viice-dropdown-content, .viice-dropdown-click.viice-mobile .viice-dropdown-content {
-      position: relative
-   }
-   viice .viice-hide-small {
-      display: none!important
-   }
-   .viice-mobile {
-      display: block;
-      width: 100%!important
-   }
-   .viice-bar-item.viice-mobile, .viice-dropdown-hover.viice-mobile, .viice-dropdown-click.viice-mobile {
-      text-align: center
-   }
-   .viice-dropdown-hover.viice-mobile, .viice-dropdown-hover.viice-mobile .viice-btn, .viice-dropdown-hover.viice-mobile .viice-button, .viice-dropdown-click.viice-mobile, .viice-dropdown-click.viice-mobile .viice-btn, .viice-dropdown-click.viice-mobile .viice-button {
-      width: 100%
-   }
+    .viice-modal-content {
+        margin: 0 10px;
+        width: auto!important
+    }
+    .viice-modal {
+        padding-top: 30px
+    }
+    .viice-dropdown-hover.viice-mobile .viice-dropdown-content, .viice-dropdown-click.viice-mobile .viice-dropdown-content {
+        position: relative
+    }
+    viice .viice-hide-small {
+        display: none!important
+    }
+    .viice-mobile {
+        display: block;
+        width: 100%!important
+    }
+    .viice-bar-item.viice-mobile, .viice-dropdown-hover.viice-mobile, .viice-dropdown-click.viice-mobile {
+        text-align: center
+    }
+    .viice-dropdown-hover.viice-mobile, .viice-dropdown-hover.viice-mobile .viice-btn, .viice-dropdown-hover.viice-mobile .viice-button, .viice-dropdown-click.viice-mobile, .viice-dropdown-click.viice-mobile .viice-btn, .viice-dropdown-click.viice-mobile .viice-button {
+        width: 100%
+    }
 }
 
 @media (max-width:768px) {
-   .viice-modal-content {
-      width: 500px
-   }
-   .viice-modal {
-      padding-top: 50px
-   }
+    .viice-modal-content {
+        width: 500px
+    }
+    .viice-modal {
+        padding-top: 50px
+    }
 }
 
 @media (min-width:993px) {
-   .viice-modal-content {
-      width: 900px
-   }
-   .viice-hide-large {
-      display: none!important
-   }
-   .viice-sidebar.viice-collapse {
-      display: block!important
-   }
+    .viice-modal-content {
+        width: 900px
+    }
+    .viice-hide-large {
+        display: none!important
+    }
+    .viice-sidebar.viice-collapse {
+        display: block!important
+    }
 }
 
 @media (max-width:992px) and (min-width:601px) {
-   .viice-hide-medium {
-      display: none!important
-   }
+    .viice-hide-medium {
+        display: none!important
+    }
 }
 
 @media (max-width:992px) {
-   .viice-sidebar.viice-collapse {
-      display: none
-   }
-   .viice-main {
-      margin-left: 0!important;
-      margin-right: 0!important
-   }
+    .viice-sidebar.viice-collapse {
+        display: none
+    }
+    .viice-main {
+        margin-left: 0!important;
+        margin-right: 0!important
+    }
 }
 
 .viice-top, .viice-bottom {
-   position: fixed;
-   width: 100%;
-   z-index: 1
+    position: fixed;
+    width: 100%;
+    z-index: 1
 }
 
 .viice-top {
-   top: 0
+    top: 0
 }
 
 .viice-bottom {
-   bottom: 0
+    bottom: 0
 }
 
 .viice-overlay {
-   position: fixed;
-   display: none;
-   width: 100%;
-   height: 100%;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   background-color: rgba(0, 0, 0, 0.5);
-   z-index: 2
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2
 }
 
 .viice-display-topleft {
-   position: absolute;
-   left: 0;
-   top: 0
+    position: absolute;
+    left: 0;
+    top: 0
 }
 
 .viice-display-topright {
-   position: absolute;
-   right: 0;
-   top: 0
+    position: absolute;
+    right: 0;
+    top: 0
 }
 
 .viice-display-bottomleft {
-   position: absolute;
-   left: 0;
-   bottom: 0
+    position: absolute;
+    left: 0;
+    bottom: 0
 }
 
 .viice-display-bottomright {
-   position: absolute;
-   right: 0;
-   bottom: 0
+    position: absolute;
+    right: 0;
+    bottom: 0
 }
 
 .viice-display-middle {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%)
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
 }
 
 .viice-display-left {
-   position: absolute;
-   top: 50%;
-   left: 0%;
-   transform: translate(0%, -50%);
-   -ms-transform: translate(-0%, -50%)
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(-0%, -50%)
 }
 
 .viice-display-right {
-   position: absolute;
-   top: 50%;
-   right: 0%;
-   transform: translate(0%, -50%);
-   -ms-transform: translate(0%, -50%)
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%)
 }
 
 .viice-display-topmiddle {
-   position: absolute;
-   left: 50%;
-   top: 0;
-   transform: translate(-50%, 0%);
-   -ms-transform: translate(-50%, 0%)
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%)
 }
 
 .viice-display-bottommiddle {
-   position: absolute;
-   left: 50%;
-   bottom: 0;
-   transform: translate(-50%, 0%);
-   -ms-transform: translate(-50%, 0%)
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%)
 }
 
 .viice-display-container:hover .viice-display-hover {
-   display: block
+    display: block
 }
 
 .viice-display-container:hover span.viice-display-hover {
-   display: inline-block
+    display: inline-block
 }
 
 .viice-display-hover {
-   display: none
+    display: none
 }
 
 .viice-display-position {
-   position: absolute
+    position: absolute
 }
 
 .viice-circle {
-   border-radius: 50%
+    border-radius: 50%
 }
 
 .viice-round-small {
-   border-radius: 2px
+    border-radius: 2px
 }
 
 .viice-round, .viice-round-medium {
-   border-radius: 4px
+    border-radius: 4px
 }
 
 .viice-round-large {
-   border-radius: 8px
+    border-radius: 8px
 }
 
 .viice-round-xlarge {
-   border-radius: 16px
+    border-radius: 16px
 }
 
 .viice-round-xxlarge {
-   border-radius: 32px
+    border-radius: 32px
 }
 
 .viice-row-padding, .viice-row-padding>.viice-half, .viice-row-padding>.viice-third, .viice-row-padding>.viice-twothird, .viice-row-padding>.viice-threequarter, .viice-row-padding>.viice-quarter, .viice-row-padding>.viice-col {
-   padding: 0 8px
+    padding: 0 8px
 }
 
 .viice-container, .viice-panel {
-   padding: 0.01em 16px
+    padding: 0.01em 16px
 }
 
 .viice-panel {
-   margin-top: 16px;
-   margin-bottom: 16px
+    margin-top: 16px;
+    margin-bottom: 16px
 }
 
 .viice-code, .viice-codespan {
-   font-family: Consolas, "courier new";
-   font-size: 16px
+    font-family: Consolas, "courier new";
+    font-size: 16px
 }
 
 .viice-code {
-   width: auto;
-   background-color: #fff;
-   padding: 8px 12px;
-   border-left: 4px solid #4CAF50;
-   word-wrap: break-word
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word
 }
 
 .viice-codespan {
-   color: crimson;
-   background-color: #f1f1f1;
-   padding-left: 4px;
-   padding-right: 4px;
-   font-size: 110%
+    color: crimson;
+    background-color: #f1f1f1;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 110%
 }
 
 .viice-card, .viice-card-2 {
-   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
 }
 
 .viice-card-4, .viice-hover-shadow:hover {
-   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .viice-spin {
-   animation: viice-spin 2s infinite linear
+    animation: viice-spin 2s infinite linear
 }
 
 @keyframes viice-spin {
-   0% {
-      transform: rotate(0deg)
-   }
-   100% {
-      transform: rotate(359deg)
-   }
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(359deg)
+    }
 }
 
 .viice-animate-fading {
-   animation: fading 10s infinite
+    animation: fading 10s infinite
 }
 
 @keyframes fading {
-   0% {
-      opacity: 0
-   }
-   50% {
-      opacity: 1
-   }
-   100% {
-      opacity: 0
-   }
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
 }
 
 .viice-animate-opacity {
-   animation: opac 0.8s
+    animation: opac 0.8s
 }
 
 @keyframes opac {
-   from {
-      opacity: 0
-   }
-   to {
-      opacity: 1
-   }
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
 }
 
 .viice-animate-top {
-   position: relative;
-   animation: animatetop 0.4s
+    position: relative;
+    animation: animatetop 0.4s
 }
 
 @keyframes animatetop {
-   from {
-      top: -300px;
-      opacity: 0
-   }
-   to {
-      top: 0;
-      opacity: 1
-   }
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
 }
 
 .viice-animate-left {
-   position: relative;
-   animation: animateleft 0.4s
+    position: relative;
+    animation: animateleft 0.4s
 }
 
 @keyframes animateleft {
-   from {
-      left: -300px;
-      opacity: 0
-   }
-   to {
-      left: 0;
-      opacity: 1
-   }
+    from {
+        left: -300px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
 }
 
 .viice-animate-right {
-   position: relative;
-   animation: animateright 0.4s
+    position: relative;
+    animation: animateright 0.4s
 }
 
 @keyframes animateright {
-   from {
-      right: -300px;
-      opacity: 0
-   }
-   to {
-      right: 0;
-      opacity: 1
-   }
+    from {
+        right: -300px;
+        opacity: 0
+    }
+    to {
+        right: 0;
+        opacity: 1
+    }
 }
 
 .viice-animate-bottom {
-   position: relative;
-   animation: animatebottom 0.4s
+    position: relative;
+    animation: animatebottom 0.4s
 }
 
 @keyframes animatebottom {
-   from {
-      bottom: -300px;
-      opacity: 0
-   }
-   to {
-      bottom: 0;
-      opacity: 1
-   }
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
 }
 
 .viice-animate-zoom {
-   animation: animatezoom 0.6s
+    animation: animatezoom 0.6s
 }
 
 @keyframes animatezoom {
-   from {
-      transform: scale(0)
-   }
-   to {
-      transform: scale(1)
-   }
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
 }
 
 .viice-animate-input {
-   transition: width 0.4s ease-in-out
+    transition: width 0.4s ease-in-out
 }
 
 .viice-animate-input:focus {
-   width: 100%!important
+    width: 100%!important
 }
 
 .viice-opacity, .viice-hover-opacity:hover {
-   opacity: 0.60
+    opacity: 0.60
 }
 
 .viice-opacity-off, .viice-hover-opacity-off:hover {
-   opacity: 1
+    opacity: 1
 }
 
 .viice-opacity-max {
-   opacity: 0.25
+    opacity: 0.25
 }
 
 .viice-opacity-min {
-   opacity: 0.75
+    opacity: 0.75
 }
 
 .viice-greyscale-max, .viice-grayscale-max, .viice-hover-greyscale:hover, .viice-hover-grayscale:hover {
-   filter: grayscale(100%)
+    filter: grayscale(100%)
 }
 
 .viice-greyscale, .viice-grayscale {
-   filter: grayscale(75%)
+    filter: grayscale(75%)
 }
 
 .viice-greyscale-min, .viice-grayscale-min {
-   filter: grayscale(50%)
+    filter: grayscale(50%)
 }
 
 .viice-sepia {
-   filter: sepia(75%)
+    filter: sepia(75%)
 }
 
 .viice-sepia-max, .viice-hover-sepia:hover {
-   filter: sepia(100%)
+    filter: sepia(100%)
 }
 
 .viice-sepia-min {
-   filter: sepia(50%)
+    filter: sepia(50%)
 }
 
 .viice-tiny {
-   font-size: 10px!important
+    font-size: 10px!important
 }
 
 .viice-small {
-   font-size: 12px!important
+    font-size: 12px!important
 }
 
 .viice-medium {
-   font-size: 15px!important
+    font-size: 15px!important
 }
 
 .viice-large {
-   font-size: 18px!important
+    font-size: 18px!important
 }
 
 .viice-xlarge {
-   font-size: 24px!important
+    font-size: 24px!important
 }
 
 .viice-xxlarge {
-   font-size: 36px!important
+    font-size: 36px!important
 }
 
 .viice-xxxlarge {
-   font-size: 48px!important
+    font-size: 48px!important
 }
 
 .viice-jumbo {
-   font-size: 64px!important
+    font-size: 64px!important
 }
 
 .viice-left-align {
-   text-align: left!important
+    text-align: left!important
 }
 
 .viice-right-align {
-   text-align: right!important
+    text-align: right!important
 }
 
 .viice-justify {
-   text-align: justify!important
+    text-align: justify!important
 }
 
 .viice-center {
-   text-align: center!important
+    text-align: center!important
 }
 
 .viice-border-0 {
-   border: 0!important
+    border: 0!important
 }
 
 .viice-border {
-   border: 1px solid #ccc!important
+    border: 1px solid #ccc!important
 }
 
 .viice-border-top {
-   border-top: 1px solid #ccc!important
+    border-top: 1px solid #ccc!important
 }
 
 .viice-border-bottom {
-   border-bottom: 1px solid #ccc!important
+    border-bottom: 1px solid #ccc!important
 }
 
 .viice-border-left {
-   border-left: 1px solid #ccc!important
+    border-left: 1px solid #ccc!important
 }
 
 .viice-border-right {
-   border-right: 1px solid #ccc!important
+    border-right: 1px solid #ccc!important
 }
 
 .viice-topbar {
-   border-top: 6px solid #ccc!important
+    border-top: 6px solid #ccc!important
 }
 
 .viice-bottombar {
-   border-bottom: 6px solid #ccc!important
+    border-bottom: 6px solid #ccc!important
 }
 
 .viice-leftbar {
-   border-left: 6px solid #ccc!important
+    border-left: 6px solid #ccc!important
 }
 
 .viice-rightbar {
-   border-right: 6px solid #ccc!important
+    border-right: 6px solid #ccc!important
 }
 
 .viice-section, .viice-code {
-   margin-top: 16px!important;
-   margin-bottom: 16px!important
+    margin-top: 16px!important;
+    margin-bottom: 16px!important
 }
 
 .viice-margin {
-   margin: 16px!important
+    margin: 16px!important
 }
 
 .viice-margin-top {
-   margin-top: 16px!important
+    margin-top: 16px!important
 }
 
 .viice-margin-bottom {
-   margin-bottom: 16px!important
+    margin-bottom: 16px!important
 }
 
 .viice-margin-left {
-   margin-left: 16px!important
+    margin-left: 16px!important
 }
 
 .viice-margin-right {
-   margin-right: 16px!important
+    margin-right: 16px!important
 }
 
 .viice-padding-small {
-   padding: 4px 8px!important
+    padding: 4px 8px!important
 }
 
 .viice-padding {
-   padding: 8px 16px!important
+    padding: 8px 16px!important
 }
 
 .viice-padding-large {
-   padding: 12px 24px!important
+    padding: 12px 24px!important
 }
 
 .viice-padding-16 {
-   padding-top: 16px!important;
-   padding-bottom: 16px!important
+    padding-top: 16px!important;
+    padding-bottom: 16px!important
 }
 
 .viice-padding-24 {
-   padding-top: 24px!important;
-   padding-bottom: 24px!important
+    padding-top: 24px!important;
+    padding-bottom: 24px!important
 }
 
 .viice-padding-32 {
-   padding-top: 32px!important;
-   padding-bottom: 32px!important
+    padding-top: 32px!important;
+    padding-bottom: 32px!important
 }
 
 .viice-padding-48 {
-   padding-top: 48px!important;
-   padding-bottom: 48px!important
+    padding-top: 48px!important;
+    padding-bottom: 48px!important
 }
 
 .viice-padding-64 {
-   padding-top: 64px!important;
-   padding-bottom: 64px!important
+    padding-top: 64px!important;
+    padding-bottom: 64px!important
 }
 
 .viice-left {
-   float: left!important
+    float: left!important
 }
 
 .viice-right {
-   float: right!important
+    float: right!important
 }
 
 .viice-button:hover {
-   color: #000!important;
-   background-color: #ccc!important
+    color: #000!important;
+    background-color: #ccc!important
 }
 
 .viice-transparent, .viice-hover-none:hover {
-   background-color: transparent!important
+    background-color: transparent!important
 }
 
 .viice-hover-none:hover {
-   box-shadow: none!important
+    box-shadow: none!important
 }
 
 
 /* Colors */
 
 .viice-amber, .viice-hover-amber:hover {
-   color: #000!important;
-   background-color: #ffc107!important
+    color: #000!important;
+    background-color: #ffc107!important
 }
 
 .viice-aqua, .viice-hover-aqua:hover {
-   color: #000!important;
-   background-color: #00ffff!important
+    color: #000!important;
+    background-color: #00ffff!important
 }
 
 .viice-blue, .viice-hover-blue:hover {
-   color: #fff!important;
-   background-color: #2196F3!important
+    color: #fff!important;
+    background-color: #2196F3!important
 }
 
 .viice-main-color, .viice-hover-main-color:hover {
-   color: #fff!important;
-   background-color: #404040!important
+    color: #fff!important;
+    background-color: #404040!important
 }
 
 .viice-brown, .viice-hover-brown:hover {
-   color: #fff!important;
-   background-color: #795548!important
+    color: #fff!important;
+    background-color: #795548!important
 }
 
 .viice-cyan, .viice-hover-cyan:hover {
-   color: #000!important;
-   background-color: #00bcd4!important
+    color: #000!important;
+    background-color: #00bcd4!important
 }
 
 .viice-blue-grey, .viice-hover-blue-grey:hover, .viice-blue-gray, .viice-hover-blue-gray:hover {
-   color: #fff!important;
-   background-color: #607d8b!important
+    color: #fff!important;
+    background-color: #607d8b!important
 }
 
 .viice-green, .viice-hover-green:hover {
-   color: #fff!important;
-   background-color: #4CAF50!important
+    color: #fff!important;
+    background-color: #4CAF50!important
 }
 
 .viice-light-green, .viice-hover-light-green:hover {
-   color: #000!important;
-   background-color: #8bc34a!important
+    color: #000!important;
+    background-color: #8bc34a!important
 }
 
 .viice-indigo, .viice-hover-indigo:hover {
-   color: #fff!important;
-   background-color: #3f51b5!important
+    color: #fff!important;
+    background-color: #3f51b5!important
 }
 
 .viice-khaki, .viice-hover-khaki:hover {
-   color: #000!important;
-   background-color: #f0e68c!important
+    color: #000!important;
+    background-color: #f0e68c!important
 }
 
 .viice-lime, .viice-hover-lime:hover {
-   color: #000!important;
-   background-color: #cddc39!important
+    color: #000!important;
+    background-color: #cddc39!important
 }
 
 .viice-orange, .viice-hover-orange:hover {
-   color: #000!important;
-   background-color: #ff9800!important
+    color: #000!important;
+    background-color: #ff9800!important
 }
 
 .viice-deep-orange, .viice-hover-deep-orange:hover {
-   color: #fff!important;
-   background-color: #ff5722!important
+    color: #fff!important;
+    background-color: #ff5722!important
 }
 
 .viice-pink, .viice-hover-pink:hover {
-   color: #fff!important;
-   background-color: #e91e63!important
+    color: #fff!important;
+    background-color: #e91e63!important
 }
 
 .viice-purple, .viice-hover-purple:hover {
-   color: #fff!important;
-   background-color: #9c27b0!important
+    color: #fff!important;
+    background-color: #9c27b0!important
 }
 
 .viice-deep-purple, .viice-hover-deep-purple:hover {
-   color: #fff!important;
-   background-color: #673ab7!important
+    color: #fff!important;
+    background-color: #673ab7!important
 }
 
 .viice-red, .viice-hover-red:hover {
-   color: #fff!important;
-   background-color: #f44336!important
+    color: #fff!important;
+    background-color: #f44336!important
 }
 
 .viice-sand, .viice-hover-sand:hover {
-   color: #000!important;
-   background-color: #fdf5e6!important
+    color: #000!important;
+    background-color: #fdf5e6!important
 }
 
 474747 .viice-teal, .viice-hover-teal:hover {
-   color: #fff!important;
-   background-color: #0b4f62!important
+    color: #fff!important;
+    background-color: #0b4f62!important
 }
 
 .viice-verydark, .viice-hover-verydark:hover {
-   color: #fff!important;
-   background-color: #232323!important
+    color: #fff!important;
+    background-color: #232323!important
 }
 
 .viice-yellow, .viice-hover-yellow:hover {
-   color: #000!important;
-   background-color: #ffeb3b!important
+    color: #000!important;
+    background-color: #ffeb3b!important
 }
 
 .viice-white, .viice-hover-white:hover {
-   color: #000!important;
-   background-color: #fff!important
+    color: #000!important;
+    background-color: #fff!important
 }
 
 .viice-black, .viice-hover-black:hover {
-   color: #fff!important;
-   background-color: #000!important
+    color: #fff!important;
+    background-color: #000!important
 }
 
 .viice-grey, .viice-hover-grey:hover, .viice-gray, .viice-hover-gray:hover {
-   color: #000!important;
-   background-color: #bbb!important
+    color: #000!important;
+    background-color: #bbb!important
 }
 
 .viice-kevin, .viice-hover-kevin:hover, .viice-kevin, .viice-hover-kevin:hover {
-   color: #000!important;
-   background-color: #c5c5c5!important
+    color: #000!important;
+    background-color: #c5c5c5!important
 }
 
 .viice-light-grey, .viice-hover-light-grey:hover, .viice-light-gray, .viice-hover-light-gray:hover {
-   color: #000!important;
-   background-color: #f1f1f1!important
+    color: #000!important;
+    background-color: #f1f1f1!important
 }
 
 c5c5c5 .viice-dark-grey, .viice-hover-dark-grey:hover, .viice-dark-gray, .viice-hover-dark-gray:hover {
-   color: #fff!important;
-   background-color: #616161!important
+    color: #fff!important;
+    background-color: #616161!important
 }
 
 .viice-pale-red, .viice-hover-pale-red:hover {
-   color: #000!important;
-   background-color: #ffdddd!important
+    color: #000!important;
+    background-color: #ffdddd!important
 }
 
 .viice-pale-green, .viice-hover-pale-green:hover {
-   color: #000!important;
-   background-color: #ddffdd!important
+    color: #000!important;
+    background-color: #ddffdd!important
 }
 
 .viice-pale-yellow, .viice-hover-pale-yellow:hover {
-   color: #000!important;
-   background-color: #ffffcc!important
+    color: #000!important;
+    background-color: #ffffcc!important
 }
 
 .viice-pale-blue, .viice-hover-pale-blue:hover {
-   color: #000!important;
-   background-color: #ddffff!important
+    color: #000!important;
+    background-color: #ddffff!important
 }
 
 .viice-text-red, .viice-hover-text-red:hover {
-   color: #f44336!important
+    color: #f44336!important
 }
 
 .viice-text-green, .viice-hover-text-green:hover {
-   color: #4CAF50!important
+    color: #4CAF50!important
 }
 
 .viice-text-blue, .viice-hover-text-blue:hover {
-   color: #2196F3!important
+    color: #2196F3!important
 }
 
 .viice-text-yellow, .viice-hover-text-yellow:hover {
-   color: #ffeb3b!important
+    color: #ffeb3b!important
 }
 
 .viice-text-white, .viice-hover-text-white:hover {
-   color: #fff!important
+    color: #fff!important
 }
 
 .viice-text-black, .viice-hover-text-black:hover {
-   color: #000!important
+    color: #000!important
 }
 
 .viice-text-grey, .viice-hover-text-grey:hover, .viice-text-gray, .viice-hover-text-gray:hover {
-   color: #757575!important
+    color: #757575!important
 }
 
 .viice-text-verydark, .viice-hover-text-verydark:hover, .viice-text-verydark, .viice-hover-text-verydark:hover {
-   color: #232323!important
+    color: #232323!important
 }
 
 .viice-text-amber {
-   color: #ffc107!important
+    color: #ffc107!important
 }
 
 .viice-text-aqua {
-   color: #13e388!important
+    color: #13e388!important
 }
 
 .viice-text-aqua2 {
-   color: #00e5ff!important
+    color: #00e5ff!important
 }
 
 .viice-text-main-color {
-   color: #87CEEB!important
+    color: #87CEEB!important
 }
 
 .viice-text-brown {
-   color: #795548!important
+    color: #795548!important
 }
 
 .viice-text-cyan {
-   color: #00bcd4!important
+    color: #00bcd4!important
 }
 
 .viice-text-blue-grey, .viice-text-blue-gray {
-   color: #607d8b!important
+    color: #607d8b!important
 }
 
 .viice-text-light-green {
-   color: #8bc34a!important
+    color: #8bc34a!important
 }
 
 .viice-text-indigo {
-   color: #3f51b5!important
+    color: #3f51b5!important
 }
 
 .viice-text-khaki {
-   color: #b4aa50!important
+    color: #b4aa50!important
 }
 
 .viice-text-lime {
-   color: #cddc39!important
+    color: #cddc39!important
 }
 
 .viice-text-orange {
-   color: #ff9800!important
+    color: #ff9800!important
 }
 
 .viice-text-deep-orange {
-   color: #ff5722!important
+    color: #ff5722!important
 }
 
 .viice-text-pink {
-   color: #e91e63!important
+    color: #e91e63!important
 }
 
 .viice-text-purple {
-   color: #9c27b0!important
+    color: #9c27b0!important
 }
 
 .viice-text-deep-purple {
-   color: #673ab7!important
+    color: #673ab7!important
 }
 
 .viice-text-sand {
-   color: #fdf5e6!important
+    color: #fdf5e6!important
 }
 
 .viice-text-teal {
-   color: #009688!important
+    color: #009688!important
 }
 
 .viice-text-light-grey, .viice-hover-text-light-grey:hover, .viice-text-light-gray, .viice-hover-text-light-gray:hover {
-   color: #f1f1f1!important
+    color: #f1f1f1!important
 }
 
 .viice-text-dark-grey, .viice-hover-text-dark-grey:hover, .viice-text-dark-gray, .viice-hover-text-dark-gray:hover {
-   color: #3a3a3a!important
+    color: #3a3a3a!important
 }
 
 .viice-border-red, .viice-hover-border-red:hover {
-   border-color: #f44336!important
+    border-color: #f44336!important
 }
 
 .viice-border-green, .viice-hover-border-green:hover {
-   border-color: #4CAF50!important
+    border-color: #4CAF50!important
 }
 
 .viice-border-blue, .viice-hover-border-blue:hover {
-   border-color: #2196F3!important
+    border-color: #2196F3!important
 }
 
 .viice-border-yellow, .viice-hover-border-yellow:hover {
-   border-color: #ffeb3b!important
+    border-color: #ffeb3b!important
 }
 
 .viice-border-white, .viice-hover-border-white:hover {
-   border-color: #fff!important
+    border-color: #fff!important
 }
 
 .viice-border-black, .viice-hover-border-black:hover {
-   border-color: #000!important
+    border-color: #000!important
 }
 
 .viice-border-grey, .viice-hover-border-grey:hover, .viice-border-gray, .viice-hover-border-gray:hover {
-   border-color: #bbb!important
+    border-color: #bbb!important
 }

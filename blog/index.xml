@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Randall Krueger's Ethics Blog</title>
+    <link>https://viice.github.io/blog/</link>
+    <description>Randall Krueger's Ethics reading assignments</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Jan 2018 21:11:00 -0400</lastBuildDate>
+        <atom:link href="https://viice.github.io/blog/" rel="self" />
+
+    <item>
+      <title>Reading 00: Why Study Ethics?</title>
+      <link>https://viice.github.io/blog/reading00/</link>
+      <pubDate>Wed, 17 Jan 2018 21:11:00 -0400</pubDate>
+
+      <guid>https://viice.github.io/blog/reading00/</guid>
+      <description>As previously discussed in the first section of reading 00: in my opinion the three biggest ethical questions with regards to computer science are privacy vs. security, the morality of hacking an individual or government with the intent of saving lives and the ethical concepts relating to the creation of a powerful AI that has the potential to both help humanity and to hurt it. These issues make it important to study ethics if you plan on going into the field of computer science. The ACM code of ethics has imperatives that relate to each of these issues.</description>
+    </item>
+
+    <item>
+      <title>Reading 00: About me</title>
+      <link>https://viice.github.io/blog/reading-1/</link>
+      <pubDate>Wed, 17 Jan 2018 21:11:00 -0400</pubDate>
+
+      <guid>https://viice.github.io/blog/reading-1/</guid>
+      <description>Hi! I am Randall Krueger, a junior at the University of Notre Dame, majoring in computer science. I will graduate in 2019 with a bachelor of science degree in engineering.</description>
+    </item>
+
+  </channel>
+</rss>
