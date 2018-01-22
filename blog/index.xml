@@ -6,8 +6,17 @@
     <description>Randall Krueger's Ethics reading assignments</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jan 2018 21:11:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jan 2018 10:53:00 -0400</lastBuildDate>
         <atom:link href="https://viice.github.io/blog/" rel="self" />
+
+    <item>
+      <title>Reading 01: The Hacker</title>
+      <link>https://viice.github.io/blog/reading01</link>
+      <pubDate>Mon, 22 Jan 2018 10:53:00 -0400</pubDate>
+
+      <guid>https://viice.github.io/blog/reading00</guid>
+      <description>As previously discussed in the first section of reading 00: in my opinion the three biggest ethical questions with regards to computer science are privacy vs. security, the morality of hacking an individual or government with the intent of saving lives and the ethical concepts relating to the creation of a powerful AI that has the potential to both help humanity and to hurt it. These issues make it important to study ethics if you plan on going into the field of computer science. The ACM code of ethics has imperatives that relate to each of these issues.</description>
+    </item>
 
     <item>
       <title>Reading 00: Why Study Ethics?</title>
