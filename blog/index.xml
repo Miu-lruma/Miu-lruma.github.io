@@ -6,8 +6,17 @@
     <description>Randall Krueger's Ethics reading assignments</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jan 2018 11:11:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jan 2018 11:14:00 -0400</lastBuildDate>
         <atom:link href="https://viice.github.io/blog/" rel="self" />
+
+    <item>
+      <title>Reading 02: The Interiew</title>
+      <link>https://viice.github.io/blog/reading02</link>
+      <pubDate>Fri, 26 Jan 2018 11:14:00 -0400</pubDate>
+
+      <guid>https://viice.github.io/blog/reading02</guid>
+      <description>My job interview process has yet to begin, but I’ve finished my internship interview process.  I will be interning with Epic Systems in Madison, Wisconsin this summer.  My interview process was very smooth, which surprised me, based on what I’ve heard from others who have gone through the process.  Most of the events that related to the interview process were very harmless, informational conversations about life at the company, that were not hard “grilling” of my knowledge of computer science.</description>
+    </item>
 
     <item>
       <title>Reading 01: The Hacker</title>
