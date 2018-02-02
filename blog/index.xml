@@ -6,8 +6,17 @@
     <description>Randall Krueger's Ethics reading assignments</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jan 2018 11:14:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jan 2018 13:13:00 -0400</lastBuildDate>
         <atom:link href="https://viice.github.io/blog/" rel="self" />
+
+    <item>
+      <title>Project 01: The Reflection</title>
+      <link>https://viice.github.io/blog/project01</link>
+      <pubDate>Fri, 2 Feb 2018 13:13:00 -0400</pubDate>
+
+      <guid>https://viice.github.io/blog/project01</guid>
+      <description>The code of ethics is broken down into four main categories: honesty, responsibility, challenge, and passion.  The first two deal with academic integrity, encouraging students to do their own work, and work hard on it in order to learn and get the most out of their college education.  The final two categories are more personal, encouraging students to challenge themselves and to find their passion.</description>
+    </item>
 
     <item>
       <title>Reading 02: The Interiew</title>
