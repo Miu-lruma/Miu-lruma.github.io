@@ -6,8 +6,17 @@
     <description>Randall Krueger's Ethics reading assignments</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Feb 2018 12:19:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 19 Feb 2018 12:47:00 -0400</lastBuildDate>
         <atom:link href="https://viice.github.io/blog/" rel="self" />
+
+    <item>
+      <title>Reading 05: The Responsibility to Prevent Errors</title>
+      <link>https://viice.github.io/blog/reading05</link>
+      <pubDate>Mon, 19 Feb 2018 12:47:00 -0400</pubDate>
+
+      <guid>https://viice.github.io/blog/reading05</guid>
+      <description>The Therac-25 accidents were a series of incidents in which patients that required radiation treatment were administered a much higher dosage than required, resulting in injury and death.  The incidents occurred when magnets used to spread a radiation beam were not engaged in combination with a higher power beam than desired being used.</description>
+    </item>
 
     <item>
       <title>Reading 04: The Diversity Problem</title>
