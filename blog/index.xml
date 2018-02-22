@@ -6,8 +6,17 @@
     <description>Randall Krueger's Ethics reading assignments</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Feb 2018 12:47:00 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2018 13:39:00 -0400</lastBuildDate>
         <atom:link href="https://viice.github.io/blog/" rel="self" />
+
+    <item>
+      <title>Project 02: The Reflection</title>
+      <link>https://viice.github.io/blog/project02</link>
+      <pubDate>Thu, 22 Feb 2018 13:39:00 -0400</pubDate>
+
+      <guid>https://viice.github.io/blog/project02</guid>
+      <description>In my opinion, the most important topic of all is the first one – start early.  I wish I had been building my resume from the moment I entered Notre Dame, working on hackathons, personal projects, and the like.  Another important part is the concept of doing extracurricular activities that you enjoy.</description>
+    </item>
 
     <item>
       <title>Reading 05: The Responsibility to Prevent Errors</title>
