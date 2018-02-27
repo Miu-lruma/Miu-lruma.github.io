@@ -6,8 +6,17 @@
     <description>Randall Krueger's Ethics reading assignments</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Feb 2018 13:39:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 26 Feb 2018 22:09:00 -0400</lastBuildDate>
         <atom:link href="https://viice.github.io/blog/" rel="self" />
+
+    <item>
+      <title>Reading 06: The Snowden Case</title>
+      <link>https://viice.github.io/blog/reading06</link>
+      <pubDate>Mon, 26 Feb 2018 22:09:00 -0400</pubDate>
+
+      <guid>https://viice.github.io/blog/reading06</guid>
+      <description>Edward Snowden is one of the more controversial figures in modern American politics.  In 2013, Snowden leaked a lot of information from the United States government, primarily the National Security Agency, or the NSA.  </description>
+    </item>
 
     <item>
       <title>Project 02: The Reflection</title>
