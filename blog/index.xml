@@ -6,8 +6,18 @@
     <description>Randall Krueger's Ethics reading assignments</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Feb 2018 22:09:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 5 Mar 2018 10:12:00 -0400</lastBuildDate>
         <atom:link href="https://viice.github.io/blog/" rel="self" />
+
+
+    <item>
+      <title>Reading 07: The Invasive Advertisements</title>
+      <link>https://viice.github.io/blog/reading07</link>
+      <pubDate>Mon, 5 Mar 2018 10:12:00 -0400</pubDate>
+
+      <guid>https://viice.github.io/blog/reading07</guid>
+      <description>There are many instances in which I have seen options to opt out of data collection for ads specialized to me.  I always take these options.</description>
+    </item>
 
     <item>
       <title>Reading 06: The Snowden Case</title>
