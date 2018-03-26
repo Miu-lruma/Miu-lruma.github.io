@@ -6,11 +6,22 @@
     <description>Randall Krueger's Ethics reading assignments</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Mar 2018 10:33:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 26 Mar 2018 10:49:00 -0400</lastBuildDate>
         <atom:link href="https://viice.github.io/blog/" rel="self" />
 
+
     <item>
-      <title>Reading 07: The Invasive Advertisements</title>
+      <title>Reading 09: The Neutral Net</title>
+      <link>https://viice.github.io/blog/reading09</link>
+      <pubDate>Mon, 26 Mar 2018 10:49:00 -0400</pubDate>
+
+      <guid>https://viice.github.io/blog/reading09</guid>
+      <description>Net neutrality is a topic that I have heard a lot about over the past year or so.  I spend a lot of time on the Internet, and there are countless posts, websites, etc. promoting net neutrality, and encouraging the user to fight for it, signing petitions, and other acts that probably won’t actually do anything.</description>
+    </item>
+
+
+    <item>
+      <title>Reading 08: The Muslim Registry</title>
       <link>https://viice.github.io/blog/reading08</link>
       <pubDate>Mon, 19 Mar 2018 10:33:00 -0400</pubDate>
 
