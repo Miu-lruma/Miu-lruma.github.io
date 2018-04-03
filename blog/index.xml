@@ -6,9 +6,18 @@
     <description>Randall Krueger's Ethics reading assignments</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Mar 2018 10:49:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 2 Apr 2018 23:10:00 -0400</lastBuildDate>
         <atom:link href="https://viice.github.io/blog/" rel="self" />
 
+
+    <item>
+      <title>Reading 10: The Cyberbully</title>
+      <link>https://viice.github.io/blog/reading10</link>
+      <pubDate>Mon, 2 Apr 2018 23:10:00 -0400</pubDate>
+
+      <guid>https://viice.github.io/blog/reading10</guid>
+      <description>Having been an avid internet user for years, I have been exposed to both trolling and cyberbullying.  To me, they are two very different things.  Trolling is commonplace on the internet and consists of posting something that is childish, misleading, or annoying to mess with other users for a laugh.</description>
+    </item>
 
     <item>
       <title>Reading 09: The Neutral Net</title>
