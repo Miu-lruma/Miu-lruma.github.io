@@ -6,9 +6,17 @@
     <description>Randall Krueger's Ethics reading assignments</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 2 Apr 2018 23:10:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 2 Apr 2018 02:06:00 -0400</lastBuildDate>
         <atom:link href="https://viice.github.io/blog/" rel="self" />
 
+    <item>
+      <title>Reading 11: The Lack of Jobs</title>
+      <link>https://viice.github.io/blog/reading11</link>
+      <pubDate>Tue, 10 Apr 2018 02:06:00 -0400</pubDate>
+
+      <guid>https://viice.github.io/blog/reading11</guid>
+      <description>No, the Luddites are wrong.  It’s a ludicrous idea to halt development in order to save certain jobs.  Technological advancement is what brings humanity to higher and higher levels.  There should be no such legal restriction on anything.  The biggest exception that could be argued is militaristic advancement, but even that should be unregulated.</description>
+    </item>
 
     <item>
       <title>Reading 10: The Cyberbully</title>
