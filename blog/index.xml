@@ -6,8 +6,17 @@
     <description>Randall Krueger's Ethics reading assignments</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 2 Apr 2018 02:06:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 16 Apr 2018 13:40:00 -0400</lastBuildDate>
         <atom:link href="https://viice.github.io/blog/" rel="self" />
+
+    <item>
+      <title>Reading 12: The Autonomous Vehicle</title>
+      <link>https://viice.github.io/blog/reading12</link>
+      <pubDate>Mon, 16 Apr 2018 13:40:00 -0400</pubDate>
+
+      <guid>https://viice.github.io/blog/reading12</guid>
+      <description>Self-driving cars will be more common than human-driven cars.  The technology that “drives” these autonomous vehicles is already strong enough to follow rules of the road, steer, and avoid obstacles – for the most part.</description>
+    </item>
 
     <item>
       <title>Reading 11: The Lack of Jobs</title>
