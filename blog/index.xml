@@ -6,8 +6,17 @@
     <description>Randall Krueger's Ethics reading assignments</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Apr 2018 13:40:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 27 Apr 2018 14:28:00 -0400</lastBuildDate>
         <atom:link href="https://viice.github.io/blog/" rel="self" />
+
+    <item>
+      <title>Reading 14: The Shape of Computer Science</title>
+      <link>https://viice.github.io/blog/reading14</link>
+      <pubDate>Fri, 27 Apr 2018 14:28:00 -0400</pubDate>
+
+      <guid>https://viice.github.io/blog/reading14</guid>
+      <description>University computer science departments are in miserable shape: 10 years behind in a field that changes every 10 minutes.</description>
+    </item>
 
     <item>
       <title>Reading 12: The Autonomous Vehicle</title>
