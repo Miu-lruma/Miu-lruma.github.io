@@ -85,11 +85,19 @@ function updateMobileBg() {
 // Prevent drag on all elements (for Firefox which ignores -webkit-user-drag)
 document.addEventListener("dragstart", function (e) { e.preventDefault(); });
 
-// Close mobile menu when tapping anywhere outside it
-document.addEventListener("click", function (e) {
+// Close mobile menu when tapping anywhere outside it or scrolling
+function closeNavDemo() {
     var nav = document.getElementById("navDemo");
-    var hamburger = document.getElementById("hamburgerButton");
-    if (nav && hamburger && !hamburger.contains(e.target) && nav.className.indexOf("viice-show") !== -1) {
+    if (nav && nav.className.indexOf("viice-show") !== -1) {
         nav.className = nav.className.replace(" viice-show", "");
     }
+}
+
+document.addEventListener("click", function (e) {
+    var hamburger = document.getElementById("hamburgerButton");
+    if (hamburger && !hamburger.contains(e.target)) {
+        closeNavDemo();
+    }
 });
+
+window.addEventListener("scroll", closeNavDemo, { passive: true });
