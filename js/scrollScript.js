@@ -3,7 +3,7 @@ window.onscroll = function () {
     scrollButtonColor();
     updateMobileBg();
 };
-window.addEventListener("load", function() {
+window.addEventListener("load", function () {
     scrollButtonColor();
     updateMobileBg();
 });
@@ -20,7 +20,7 @@ function scrollButtonColor() {
         portfolioButton.className = "viice-bar-item viice-button viice-hide-small viice-verydark viice-hover-main-color viice-text-white";
         aboutButton.className = "viice-bar-item viice-button viice-hide-small viice-verydark viice-hover-main-color viice-text-white";
         if (hamburger) hamburger.className = "viice-bar-item viice-button viice-hide-large viice-hide-medium viice-verydark viice-hover-main-color viice-text-white";
-        navDemoLinks.forEach(function(el) {
+        navDemoLinks.forEach(function (el) {
             el.className = "viice-bar-item viice-button viice-nearblack viice-hover-verydark viice-text-white";
         });
     } else {
@@ -30,7 +30,7 @@ function scrollButtonColor() {
         portfolioButton.className = "viice-bar-item viice-button viice-hide-small viice-main-color viice-hover-verydark viice-text-aqua";
         aboutButton.className = "viice-bar-item viice-button viice-hide-small viice-main-color viice-hover-verydark viice-text-aqua";
         if (hamburger) hamburger.className = "viice-bar-item viice-button viice-hide-large viice-hide-medium viice-main-color viice-hover-verydark viice-text-aqua";
-        navDemoLinks.forEach(function(el) {
+        navDemoLinks.forEach(function (el) {
             el.className = "viice-bar-item viice-button viice-verydark viice-hover-main-color viice-text-aqua";
         });
     }
@@ -70,7 +70,7 @@ var mobileSections = [
 function updateMobileBg() {
     if (!mobileBgEl || window.innerWidth > 600) return;
     var active = mobileSections[0].src;
-    mobileSections.forEach(function(s) {
+    mobileSections.forEach(function (s) {
         var el = document.querySelector(s.selector);
         if (el && el.getBoundingClientRect().top < window.innerHeight) {
             active = s.src;
@@ -83,10 +83,10 @@ function updateMobileBg() {
 }
 
 // Prevent drag on all elements (for Firefox which ignores -webkit-user-drag)
-document.addEventListener("dragstart", function(e) { e.preventDefault(); });
+document.addEventListener("dragstart", function (e) { e.preventDefault(); });
 
 // Close mobile menu when tapping anywhere outside it
-document.addEventListener("click", function(e) {
+document.addEventListener("click", function (e) {
     var nav = document.getElementById("navDemo");
     var hamburger = document.getElementById("hamburgerButton");
     if (nav && hamburger && !hamburger.contains(e.target) && nav.className.indexOf("viice-show") !== -1) {

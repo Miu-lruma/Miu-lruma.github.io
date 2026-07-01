@@ -138,7 +138,8 @@ html {
 
 @media only screen and (max-device-width: 1024px) {
 
-    html, body {
+    html,
+    body {
         background-color: transparent !important;
     }
 
@@ -151,19 +152,23 @@ html {
         opacity: 0.75;
     }
 
-    #home, #portfolio, #Resume {
+    #home,
+    #portfolio,
+    #Resume {
         background: transparent !important;
     }
 
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
         background-image: none !important;
         opacity: 1 !important;
     }
 
     .viice-floater {
-    color: #fff !important;
-    background-color: #404040 !important
-}
+        color: #fff !important;
+        background-color: #404040 !important
+    }
 
     .viice-content {
         background-color: #404040;
