@@ -1,3 +1,7 @@
+* {
+    -webkit-user-drag: none;
+}
+
 body,
 h1,
 h2,
@@ -56,9 +60,63 @@ html {
     letter-spacing: 10px;
 }
 
+#mobile-bg-base {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: white;
+    pointer-events: none;
+}
+
+#mobile-bg {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('titleImage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+.viice-nearblack,
+.viice-hover-nearblack:hover {
+    color: #fff !important;
+    background-color: #111 !important;
+}
+
 @media (max-width: 600px) {
     .hover-hint {
         display: none;
+    }
+
+    #myNavbar {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #navDemo {
+        position: absolute;
+        right: 0;
+        width: auto;
+    }
+
+    #navDemo .viice-bar-item {
+        width: auto;
+        white-space: nowrap;
+        text-align: right;
+    }
+
+    #hamburgerButton {
+        padding: 8px 17px;
     }
 }
 
@@ -79,6 +137,37 @@ html {
 /* Turn off parallax scrolling for tablets and phones */
 
 @media only screen and (max-device-width: 1024px) {
+
+    html, body {
+        background-color: transparent !important;
+    }
+
+    #mobile-bg-base {
+        display: block;
+    }
+
+    #mobile-bg {
+        display: block;
+        opacity: 0.75;
+    }
+
+    #home, #portfolio, #Resume {
+        background: transparent !important;
+    }
+
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-image: none !important;
+        opacity: 1 !important;
+    }
+
+    .viice-floater {
+    color: #fff !important;
+    background-color: #404040 !important
+}
+
+    .viice-content {
+        background-color: #404040;
+    }
 
     .bgimg-1,
     .bgimg-2,

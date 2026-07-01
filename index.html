@@ -14,6 +14,8 @@
 </head>
 
 <body class="viice-main-color">
+	<div id="mobile-bg-base"></div>
+	<div id="mobile-bg"></div>
 
 	<!-- ===================== NAVBAR ===================== -->
 	<div class="viice-top">
@@ -22,30 +24,30 @@
 		<div class="viice-bar" id="myNavbar">
 			<a class="viice-bar-item viice-button viice-main-color viice-hover-verydark viice-text-aqua" href="#home"
 				id="homeButton">
-				<i class="fa fa-home"></i> <span data-content="nav.home"></span>
+				<i class="fa fa-home"></i> <span>HOME</span>
 			</a>
 			<a class="viice-bar-item viice-button viice-hide-small viice-main-color viice-hover-verydark viice-text-aqua"
 				href="#about" id="aboutButton">
-				<i class="fa fa-user"></i> <span data-content="nav.about"></span>
+				<i class="fa fa-user"></i> <span>ABOUT</span>
 			</a>
 			<a class="viice-bar-item viice-button viice-hide-small viice-main-color viice-hover-verydark viice-text-aqua"
 				href="#portfolio" id="portfolioButton">
-				<i class="fa fa-code"></i> <span data-content="nav.portfolio"></span>
+				<i class="fa fa-code"></i> <span>PORTFOLIO</span>
 			</a>
 			<a class="viice-bar-item viice-button viice-hide-small viice-main-color viice-hover-verydark viice-text-aqua"
 				href="#Resume" id="ResumeButton">
-				<i class="fa fa-globe"></i> <span data-content="nav.resumeLinks"></span>
+				<i class="fa fa-globe"></i> <span>RESUME & LINKS</span>
+			</a>
+			<a href="javascript:void(0)" id="hamburgerButton" class="viice-bar-item viice-button viice-hide-large viice-hide-medium viice-main-color viice-hover-verydark viice-text-aqua" style="float:right" onclick="toggleFunction()">
+				<i class="fa fa-bars"></i>
 			</a>
 		</div>
 
 		<!-- Mobile navbar (shown on small screens only) -->
-		<div class="viice-bar-block viice-dark-grey viice-hide viice-hide-large viice-hide-medium" id="navDemo">
-			<a class="viice-bar-item viice-button viice-dark-grey" href="#about" onclick="toggleFunction()"
-				data-content="nav.about"></a>
-			<a class="viice-bar-item viice-button viice-dark-grey" href="#portfolio" onclick="toggleFunction()"
-				data-content="nav.portfolio"></a>
-			<a class="viice-bar-item viice-button viice-dark-grey" href="#Resume" onclick="toggleFunction()"
-				data-content="nav.resumeLinks"></a>
+		<div class="viice-bar-block viice-verydark viice-hide viice-hide-large viice-hide-medium" id="navDemo">
+			<a class="viice-bar-item viice-button viice-verydark viice-hover-main-color viice-text-aqua" href="#about" onclick="toggleFunction()">ABOUT</a>
+			<a class="viice-bar-item viice-button viice-verydark viice-hover-main-color viice-text-aqua" href="#portfolio" onclick="toggleFunction()">PORTFOLIO</a>
+			<a class="viice-bar-item viice-button viice-verydark viice-hover-main-color viice-text-aqua" href="#Resume" onclick="toggleFunction()">RESUME & LINKS</a>
 		</div>
 
 	</div>
@@ -56,9 +58,9 @@
 		<div class="bgimg-1 viice-display-container viice-opacity-min">
 			<div class="viice-display-middle" style="white-space:nowrap;">
 				<span
-					class="viice-center viice-padding-large viice-black viice-xxlarge viice-semi-wide viice-animate-opacity">
+					class="viice-center viice-floater viice-padding-large viice-black viice-xxlarge viice-semi-wide viice-animate-opacity">
 					<span class="viice-xxlarge viice-text-aqua">
-						<b data-content="hero.name"></b>
+						<b>Lily Krueger</b>
 					</span>
 				</span>
 			</div>
@@ -67,10 +69,10 @@
 
 	<!-- ===================== ABOUT SECTION ===================== -->
 	<div class="viice-content viice-container" id="about">
-		<h3 class="viice-center viice-xxlarge" data-content="about.heading"></h3>
+		<h3 class="viice-center viice-xxlarge">ABOUT ME</h3>
 		<p class="viice-center"></p>
-		<p data-content="about.para1"></p>
-		<p data-content="about.para2"></p>
+		<p>Hi! I'm Lily Krueger, a senior software engineer at Epic Systems in Madison, WI, where I build software that powers healthcare across the country. I graduated from the University of Notre Dame with a bachelor of science in computer science.</p>
+		<p>My love of coding started when I was 11, modifying Ruby code for my favorite PC game. The moment I realized that lines of text could completely change how something ran, I was hooked. Since then I've grown from that one Ruby mod into someone who's comfortable across the stack - backend languages like C#, Java, and Python; frontend with TypeScript and React; mobile with Swift and Kotlin; and lately, agentic AI. Full list on my resume.</p>
 
 		<div class="viice-row">
 
@@ -90,8 +92,8 @@
 
 			<!-- Bio text -->
 			<div class="viice-col m5 viice-padding-large">
-				<p data-content="about.para3"></p>
-				<p data-content="about.para4"></p>
+				<p>Notre Dame is where I got my first taste of serious programming - TCP servers, web scrapers, full-stack apps. Since then I've spent 7 years at Epic building across backend, frontend, mobile, and cloud, and I keep that energy going through personal projects on the side, a few of which are featured in my portfolio.</p>
+				<p>I also have a serious passion for graphic design and creative work. I've done 3D animation in Autodesk Maya, video editing in Adobe Premiere Pro, graphic design in Adobe Illustrator, photo editing in Adobe Photoshop, and web design with HTML and CSS - some of which you can find in the portfolio section.</p>
 			</div>
 
 		</div>
@@ -103,8 +105,8 @@
 		<div class="bgimg-2 viice-display-container viice-opacity-min">
 			<div class="viice-display-middle" style="white-space:nowrap;">
 				<span
-					class="viice-center viice-padding-large viice-black viice-xxlarge viice-semi-wide viice-animate-opacity">
-					<span class="viice-xxlarge viice-text-white viice-wide" data-content="nav.portfolio"></span>
+					class="viice-center viice-floater viice-padding-large viice-black viice-xxlarge viice-semi-wide viice-animate-opacity">
+					<span class="viice-xxlarge viice-text-white viice-wide">PORTFOLIO</span>
 				</span>
 			</div>
 		</div>
@@ -112,11 +114,10 @@
 
 	<!-- ===================== PORTFOLIO SECTION ===================== -->
 	<div class="viice-content viice-container viice-margin-bottom">
-		<h3 class="viice-center viice-xxlarge" data-content="portfolio.heading"></h3>
+		<h3 class="viice-center viice-xxlarge">Projects</h3>
 		<div class="viice-center">
-			<span data-content="portfolio.subtitle"></span><br>
-			<span class="hover-hint" data-content="portfolio.hoverHint"></span><span
-				data-content="portfolio.hoverHintClick"></span>
+			<span>View some of my programming, graphic design, and photo/video editing work.</span><br>
+			<span class="hover-hint">Hover over each image to view its description. </span><span>Click to view associated media.</span>
 		</div>
 		<br>
 
@@ -130,12 +131,12 @@
 						</a>
 					</div>
 					<div class="middle">
-						<div class="text" data-content="portfolio.cards.lyricle.title"></div>
+						<div class="text">Lyricle</div>
 					</div>
 				</div>
 				<div class="below-clip">
 					<div class="below">
-						<div class="textbelow" data-content="portfolio.cards.lyricle.description"></div>
+						<div class="textbelow">A lyrics guessing game where you fill in missing words from song lyrics. Built with React, TypeScript, and a .NET backend on AWS Lambda.</div>
 					</div>
 				</div>
 			</div>
@@ -149,12 +150,12 @@
 						</a>
 					</div>
 					<div class="middle">
-						<div class="text" data-content="portfolio.cards.movieShelf.title"></div>
+						<div class="text">Miu's Special Movie Shelf</div>
 					</div>
 				</div>
 				<div class="below-clip">
 					<div class="below">
-						<div class="textbelow" data-content="portfolio.cards.movieShelf.description"></div>
+						<div class="textbelow">An interactive movie and actor connection explorer powered by The Movie Database API. Built with React and TypeScript, with a RESTful backend on AWS.</div>
 					</div>
 				</div>
 			</div>
@@ -167,12 +168,12 @@
 							style="width:100%; cursor:pointer">
 					</div>
 					<div class="middle">
-						<div class="text" data-content="portfolio.cards.visualEffects.title"></div>
+						<div class="text">Visual Effects</div>
 					</div>
 				</div>
 				<div class="below-clip">
 					<div class="below">
-						<div class="textbelow" data-content="portfolio.cards.visualEffects.description"></div>
+						<div class="textbelow">An animation created using Autodesk Maya 2017 to showcase skill at animation and the use of Maya's dynamic features, including particles, nCloth, and fluids.</div>
 					</div>
 				</div>
 			</div>
@@ -186,12 +187,12 @@
 						</a>
 					</div>
 					<div class="middle">
-						<div class="text" data-content="portfolio.cards.modelingLighting.title"></div>
+						<div class="text">Modeling & Lighting</div>
 					</div>
 				</div>
 				<div class="below-clip">
 					<div class="below">
-						<div class="textbelow" data-content="portfolio.cards.modelingLighting.description"></div>
+						<div class="textbelow">An image created using Autodesk Maya 2017. All modeling, lighting, texturing, and scene creation done by hand.</div>
 					</div>
 				</div>
 			</div>
@@ -203,12 +204,12 @@
 						<img class="image" src="resources/novo.png" style="width:100%">
 					</div>
 					<div class="middle">
-						<div class="text" data-content="portfolio.cards.novopp.title"></div>
+						<div class="text">NOVO++</div>
 					</div>
 				</div>
 				<div class="below-clip">
 					<div class="below">
-						<div class="textbelow" data-content="portfolio.cards.novopp.description"></div>
+						<div class="textbelow">A website designed to allow Notre Dame students to choose a course schedule with ease. Filters through big data to find relevant data to the student. Developed for the Hesburgh Hackathon 2017.</div>
 					</div>
 				</div>
 			</div>
@@ -220,12 +221,12 @@
 						<img class="image" src="resources/dunneFlag.png" style="width:100%">
 					</div>
 					<div class="middle">
-						<div class="text" data-content="portfolio.cards.dunneFlag.title"></div>
+						<div class="text">Dunne Hall Flag & Crest</div>
 					</div>
 				</div>
 				<div class="below-clip">
 					<div class="below viice-margin-bottom">
-						<div class="textbelow" data-content="portfolio.cards.dunneFlag.description"></div>
+						<div class="textbelow">The official flag and crest for Dunne Hall at the University of Notre Dame, created in my role as commissioner of apparel & design. All work was done in Adobe Illustrator.</div>
 					</div>
 				</div>
 			</div>
@@ -240,8 +241,8 @@
 		<div class="bgimg-3 viice-display-container viice-opacity-min">
 			<div class="viice-display-middle" style="white-space:nowrap;">
 				<span
-					class="viice-center viice-padding-large viice-black viice-xxlarge viice-semi-wide viice-animate-opacity">
-					<span class="viice-xxlarge viice-text-white viice-wide" data-content="nav.resumeLinks"></span>
+					class="viice-center viice-floater viice-padding-large viice-black viice-xxlarge viice-semi-wide viice-animate-opacity">
+					<span class="viice-xxlarge viice-text-white viice-wide">RESUME & LINKS</span>
 				</span>
 			</div>
 		</div>
@@ -249,7 +250,7 @@
 
 	<!-- ===================== RESUME & LINKS SECTION ===================== -->
 	<div class="viice-content viice-container">
-		<div class="viice-center viice-padding-16 viice-large" data-content="resumeLinks.subtitle"></div>
+		<div class="viice-center viice-padding-16 viice-large">View my resume or explore some of my projects on GitHub.</div>
 
 		<div class="card-grid">
 			<!-- Card: Resume PDF -->
@@ -261,7 +262,7 @@
 						</a>
 					</div>
 					<div class="middle">
-						<div class="text" data-content="resumeLinks.cards.resume.title"></div>
+						<div class="text">Resume</div>
 					</div>
 				</div>
 			</div>
@@ -275,12 +276,12 @@
 						</a>
 					</div>
 					<div class="middle">
-						<div class="text" data-content="resumeLinks.cards.github.title"></div>
+						<div class="text">GitHub.com/Miu-lruma</div>
 					</div>
 				</div>
 				<div class="below-clip">
 					<div class="below">
-						<div class="textbelow" data-content="resumeLinks.cards.github.description"></div>
+						<div class="textbelow">A link to some of my coding projects hosted on GitHub.</div>
 					</div>
 				</div>
 			</div>
@@ -291,7 +292,7 @@
 
 			<!-- Visitor map widget -->
 			<div class="viice-col m6 viice-container">
-				<h3 class="viice-center" data-content="resumeLinks.visitorsHeading"></h3>
+				<h3 class="viice-center">Recent Visitors:</h3>
 				<div class="map-scale-wrapper">
 					<script type='text/javascript' id='mapmyvisitors'
 						src='https://mapmyvisitors.com/map.js?cl=84baaf&w=400&t=tt&d=sZScjOFgumZZZkGg0rY4UXH-eVQYVnOD6GiZN4Ygo0A&co=0f4238&cmo=abc4bf&cmn=05d8ad'>
@@ -303,20 +304,20 @@
 			<div class="viice-col m6 viice-panel">
 				<div class="viice-large viice-margin-bottom">
 					<i class=" viice-hover-text-verydark viice-xlarge viice-margin-right"></i>
-					<div class="viice-xlarge" data-content="resumeLinks.contactHeading"></div>
+					<div class="viice-xlarge">Contact me!</div>
 					<br>
 					<a href="https://www.epic.com/" style="text-decoration: none" target="_blank">
 						<i class="fa fa-building fa-fw viice-hover-text-verydark viice-xlarge viice-margin-right"></i>
-						<span data-content="resumeLinks.epicSystems"></span><br>
+						<span>Epic Systems</span><br>
 					</a>
 					<a href="https://www.google.com/maps/place/Madison,+WI" style="text-decoration: none"
 						target="_blank">
 						<i class="fa fa-map-marker fa-fw viice-hover-text-verydark viice-xlarge viice-margin-right"></i>
-						<span data-content="resumeLinks.madison"></span><br>
+						<span>Madison, WI</span><br>
 					</a>
 					<a href="mailto:lkviice@gmail.com" style="text-decoration: none" target="_top">
 						<i class="fa fa-envelope fa-fw viice-hover-text-verydark viice-xlarge viice-margin-right"></i>
-						<span data-content="resumeLinks.email"></span><br>
+						<span>LKviice@gmail.com</span><br>
 					</a>
 				</div>
 			</div>
@@ -326,9 +327,9 @@
 	<!-- end RESUME & LINKS SECTION -->
 
 	<!-- ===================== FOOTER ===================== -->
-	<div class="viice-white">
+	<div class="viice-white" id="footerWrapper">
 		<footer class="viice-center viice-verydark">
-			<div class="viice-xxlarge viice-margin-top">
+			<div class="viice-xxlarge">
 				<a class="fa fa-github viice-hover-opacity" href="https://github.com/Miu-lruma"
 					style="text-decoration: none" target="_blank">
 				</a>
@@ -341,7 +342,6 @@
 
 	<!-- ===================== SCRIPTS ===================== -->
 	<script src="js/jquery.js"></script>
-	<script src="js/content.js"></script>
 	<script src="js/youtubeModal.jquery.js"></script>
 	<script src="js/scrollScript.js"></script>
 
