@@ -91,6 +91,8 @@ function closeNavDemo() {
     if (nav && nav.className.indexOf("viice-show") !== -1) {
         nav.className = nav.className.replace(" viice-show", "");
     }
+    var hamburger = document.getElementById("hamburgerButton");
+    if (hamburger) hamburger.blur();
 }
 
 document.addEventListener("click", function (e) {
