@@ -12,6 +12,8 @@ function scrollButtonColor() {
     var navbar = document.getElementById("myNavbar");
     var hamburger = document.getElementById("hamburgerButton");
     var navDemoLinks = document.querySelectorAll("#navDemo a");
+    var navDemo = document.getElementById("navDemo");
+    var menuOpen = navDemo && navDemo.className.indexOf("viice-show") !== -1;
     var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) - 1 - navbar.offsetHeight;
     if (document.body.scrollTop > h || document.documentElement.scrollTop > h) {
         navbar.className = "viice-bar";
@@ -19,7 +21,9 @@ function scrollButtonColor() {
         ResumeButton.className = "viice-bar-item viice-button viice-hide-small viice-verydark viice-hover-main-color viice-text-white";
         portfolioButton.className = "viice-bar-item viice-button viice-hide-small viice-verydark viice-hover-main-color viice-text-white";
         aboutButton.className = "viice-bar-item viice-button viice-hide-small viice-verydark viice-hover-main-color viice-text-white";
-        if (hamburger) hamburger.className = "viice-bar-item viice-button viice-hide-large viice-hide-medium viice-verydark viice-hover-main-color viice-text-white";
+        if (hamburger) hamburger.className = menuOpen
+            ? "viice-bar-item viice-button viice-hide-large viice-hide-medium viice-main-color viice-text-white"
+            : "viice-bar-item viice-button viice-hide-large viice-hide-medium viice-verydark viice-hover-main-color viice-text-white";
         navDemoLinks.forEach(function (el) {
             el.className = "viice-bar-item viice-button viice-nearblack viice-hover-verydark viice-text-white";
         });
@@ -29,7 +33,9 @@ function scrollButtonColor() {
         ResumeButton.className = "viice-bar-item viice-button viice-hide-small viice-main-color viice-hover-verydark viice-text-aqua";
         portfolioButton.className = "viice-bar-item viice-button viice-hide-small viice-main-color viice-hover-verydark viice-text-aqua";
         aboutButton.className = "viice-bar-item viice-button viice-hide-small viice-main-color viice-hover-verydark viice-text-aqua";
-        if (hamburger) hamburger.className = "viice-bar-item viice-button viice-hide-large viice-hide-medium viice-main-color viice-hover-verydark viice-text-aqua";
+        if (hamburger) hamburger.className = menuOpen
+            ? "viice-bar-item viice-button viice-hide-large viice-hide-medium viice-verydark viice-text-aqua"
+            : "viice-bar-item viice-button viice-hide-large viice-hide-medium viice-main-color viice-hover-verydark viice-text-aqua";
         navDemoLinks.forEach(function (el) {
             el.className = "viice-bar-item viice-button viice-verydark viice-hover-main-color viice-text-aqua";
         });
@@ -57,6 +63,7 @@ function toggleFunction() {
     } else {
         x.className = x.className.replace(" viice-show", "");
     }
+    scrollButtonColor();
 }
 
 // Mobile fixed background — swaps image based on which parallax section is in view
@@ -90,6 +97,7 @@ function closeNavDemo() {
     var nav = document.getElementById("navDemo");
     if (nav && nav.className.indexOf("viice-show") !== -1) {
         nav.className = nav.className.replace(" viice-show", "");
+        scrollButtonColor();
     }
     var hamburger = document.getElementById("hamburgerButton");
     if (hamburger) hamburger.blur();
