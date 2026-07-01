@@ -42,24 +42,19 @@
 }
 
 .card-grid {
-    font-size: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .container {
     position: relative;
-    width: calc(49% - 3px);
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    flex: 1 1 0;
 }
 
 .containerimage {
     position: relative;
-    width: 98.5%;
-    display: inline-block;
-    vertical-align: top;
-    margin-bottom: 5px;
+    flex: 0 0 100%;
 }
 
 .card-frame {
@@ -169,8 +164,7 @@
 
     /* Stack cards full-width on mobile */
     .container, .containerimage {
-        width: 100%;
-        display: block;
+        flex: 0 0 100%;
     }
 
     /* Always show card title and description since hover doesn't work on touch */
