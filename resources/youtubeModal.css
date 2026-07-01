@@ -41,11 +41,16 @@
     background: rgba(0, 0, 0, 0.6);
 }
 
+.card-grid {
+    font-size: 0;
+}
+
 .container {
     position: relative;
-    width: 49%;
+    width: calc(49% - 3px);
     display: inline-block;
     vertical-align: top;
+    margin-right: 5px;
     margin-bottom: 5px;
 }
 
