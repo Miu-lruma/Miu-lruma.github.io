@@ -11,9 +11,9 @@ const content = {
 	about: {
 		heading: 'ABOUT ME',
 		para1: "Hi! I'm Lily Krueger, a senior software engineer at Epic Systems in Madison, WI, where I build software that powers healthcare across the country. I graduated from the University of Notre Dame with a bachelor of science in computer science.",
-		para2: "My love of coding started when I was 11, modifying Ruby code for my favorite PC game. The moment I realized that lines of text could completely change how something ran, I was hooked. Since then I've grown from that one Ruby mod into someone who's comfortable across the stack - backend languages like C#, Java, and Python; frontend with TypeScript and React; mobile with Swift and Kotlin; and lately, agentic AI. Full list on my resume below.",
-		para3: "Notre Dame is where I got my first taste of serious programming - TCP servers, web scrapers, full-stack apps. Since then I've spent 7 years at Epic building across backend, frontend, mobile, and cloud, and I keep that energy going through personal projects on the side, some of which you can see below.",
-		para4: "I also have a serious passion for graphic design and creative work. I've done 3D animation in Autodesk Maya, video editing in Adobe Premiere Pro, graphic design in Adobe Illustrator, photo editing in Adobe Photoshop, and web design with HTML and CSS - some of which you can see in the portfolio below."
+		para2: "My love of coding started when I was 11, modifying Ruby code for my favorite PC game. The moment I realized that lines of text could completely change how something ran, I was hooked. Since then I've grown from that one Ruby mod into someone who's comfortable across the stack - backend languages like C#, Java, and Python; frontend with TypeScript and React; mobile with Swift and Kotlin; and lately, agentic AI. Full list on my resume.",
+		para3: "Notre Dame is where I got my first taste of serious programming - TCP servers, web scrapers, full-stack apps. Since then I've spent 7 years at Epic building across backend, frontend, mobile, and cloud, and I keep that energy going through personal projects on the side, a few of which are featured in my portfolio.",
+		para4: "I also have a serious passion for graphic design and creative work. I've done 3D animation in Autodesk Maya, video editing in Adobe Premiere Pro, graphic design in Adobe Illustrator, photo editing in Adobe Photoshop, and web design with HTML and CSS - some of which you can find in the portfolio section."
 	},
 	portfolio: {
 		heading: 'Projects',
@@ -48,7 +48,7 @@ const content = {
 		}
 	},
 	resumeLinks: {
-		subtitle: 'Click below to view my resume or look at some of my projects hosted on GitHub.',
+		subtitle: 'View my resume or explore some of my projects on GitHub.',
 		cards: {
 			resume: { title: 'Resume' },
 			github: {
