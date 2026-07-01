@@ -28,7 +28,7 @@ for (const file of ['viice.css', 'caviar.css', 'youtubeModal.css', 'viiceStyle.c
 
 (async () => {
   // Minify JS
-  for (const file of ['jquery.js', 'content.js', 'youtubeModal.jquery.js', 'scrollScript.js']) {
+  for (const file of ['jquery.js', 'youtubeModal.jquery.js', 'scrollScript.js']) {
     const input = fs.readFileSync(path.join('js', file), 'utf8');
     const result = await minifyJS(input);
     fs.writeFileSync(path.join(dist, 'js', file), result.code);
