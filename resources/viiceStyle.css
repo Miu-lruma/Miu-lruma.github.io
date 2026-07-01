@@ -120,6 +120,12 @@ html {
     }
 }
 
+/* Cancel all hover color changes on the hamburger — visual state is JS-controlled only */
+#hamburgerButton.viice-main-color:hover { background-color: #404040 !important; }
+#hamburgerButton.viice-verydark:hover   { background-color: #232323 !important; }
+#hamburgerButton.viice-text-aqua:hover  { color: #13e388 !important; }
+#hamburgerButton.viice-text-white:hover { color: #fff !important; }
+
 .viice-top,
 .viice-bar {
     pointer-events: none;
